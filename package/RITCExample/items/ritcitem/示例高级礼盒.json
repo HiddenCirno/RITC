@@ -1,0 +1,25 @@
+{
+    "_id": "示例高级礼盒",
+    "targetid": "63a8970d7108f713591149f5",
+    "_name": "示例高级礼盒",
+    "_props": {
+        "Name": "示例高级礼盒",
+        "ShortName": "示例高级礼盒",
+        "Description": "独立物品范例。",
+        "Weight": 0.05,
+        "BackgroundColor": "default",
+        "DefaultPrice": 10000,
+        "RagfairType": "5b47574386f77428ca22b2f1",
+        "CanFindInRaid": false,
+        "CustomLoot": false,
+        "CustomLootTarget": "59faff1d86f7746c51718c9c",
+        "isMoney": false,
+        "isadvGiftBox": true,
+        "advBoxData": {
+            "count": 10,
+            "forcefindinraid": true,
+            "giftdata": "示例高级礼盒"
+        },
+        "StackMaxSize": 1
+    }
+}

@@ -1,0 +1,317 @@
+{
+    "示例任务1": {
+        "Start": {
+            "Data": [],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "示例任务1寻找物品1",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "60b0f93284c20f0feb453da7",
+                    "count": 1
+                },
+                {
+                    "id": "示例任务1上交物品1",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "60b0f93284c20f0feb453da7",
+                    "count": 1
+                },
+                {
+                    "id": "示例任务1寻找物品2",
+                    "type": "Find",
+                    "inraid": true,
+                    "itemid": "5d1b33a686f7742523398398",
+                    "count": 1
+                },
+                {
+                    "id": "示例任务1上交物品2",
+                    "type": "Hand",
+                    "inraid": true,
+                    "itemid": "5d1b33a686f7742523398398",
+                    "count": 1
+                },
+                {
+                    "id": "示例任务1寻找物品3",
+                    "type": "Find",
+                    "inraid": false,
+                    "itemid": "示例任务物品",
+                    "count": 1
+                },
+                {
+                    "id": "示例任务1上交物品3",
+                    "type": "Hand",
+                    "inraid": false,
+                    "itemid": "示例任务物品",
+                    "count": 1
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "示例任务2": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "示例任务2前置任务1",
+                    "type": "Quest",
+                    "questid": "示例任务1",
+                    "status": [
+                        4
+                    ]
+                },
+                {
+                    "id": "示例任务2前置等级",
+                    "type": "Level",
+                    "count": 5
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "示例任务2杀敌需求1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 1,
+                    "bot": "Any",
+                    "role": [],
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "zone": [],
+                    "Equip": []
+                },
+                {
+                    "id": "示例任务2杀敌需求2",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 1,
+                    "bot": "AnyPmc",
+                    "role": [],
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [
+                        "54491c4f4bdc2db1078b4568"
+                    ],
+                    "Mod": [],
+                    "location": [],
+                    "zone": [],
+                    "Equip": [
+                        [
+                            "6571bde39837cc51b800c212"
+                        ],
+                        [
+                            "5645bcc04bdc2d363b8b4572"
+                        ]
+                    ]
+                },
+                {
+                    "id": "示例任务2杀敌需求3",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 1,
+                    "bot": "Bear",
+                    "role": [],
+                    "bodyPart": [],
+                    "daytime": [
+                        6,
+                        18
+                    ],
+                    "distance": 10,
+                    "distancetype": ">=",
+                    "weapon": [
+                        "574d967124597745970e7c94"
+                    ],
+                    "Mod": [
+                        "593d490386f7745ee97a1555"
+                    ],
+                    "location": [],
+                    "zone": [],
+                    "Equip": []
+                },
+                {
+                    "id": "示例任务2杀敌需求4",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 1,
+                    "bot": "Savage",
+                    "role": [
+                        "bossSanitar"
+                    ],
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [
+                        "Shoreline"
+                    ],
+                    "zone": [],
+                    "Equip": []
+                },
+                {
+                    "id": "示例任务2杀敌需求5",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 1,
+                    "bot": "Savage",
+                    "role": [],
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "zone": [
+                        "huntsman_020"
+                    ],
+                    "Equip": []
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "示例任务3": {
+        "Start": {
+            "Data": [
+                {
+                    "id": "示例任务3前置商人好感1",
+                    "type": "Trust",
+                    "count": 2,
+                    "trader": "54cb50c76803fa8b248b4571"
+                }
+            ],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "示例任务3踩点需求1",
+                    "type": "Visit",
+                    "oneraid": false,
+                    "count": 1,
+                    "zoneid": "place_pacemaker_SCOUT_01"
+                },
+                {
+                    "id": "示例任务3撤离需求1",
+                    "type": "Extract",
+                    "oneraid": false,
+                    "count": 1,
+                    "location": [
+                        "Shoreline"
+                    ],
+                    "status": [
+                        "Survived",
+                        "Runner"
+                    ],
+                    "chosenextractpoint": false,
+                    "extractpoint": ""
+                },
+                {
+                    "id": "示例任务3撤离需求2",
+                    "type": "Extract",
+                    "oneraid": false,
+                    "count": 1,
+                    "location": [
+                        "Shoreline"
+                    ],
+                    "status": [
+                        "Survived",
+                        "Runner"
+                    ],
+                    "chosenextractpoint": true,
+                    "extractpoint": "Road to Customs"
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [],
+            "Override": false
+        }
+    },
+    "示例任务4": {
+        "Start": {
+            "Data": [],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "示例任务4等级需求1",
+                    "type": "Level",
+                    "count": 75
+                },
+                {
+                    "id": "示例任务4安放需求1",
+                    "type": "Leave",
+                    "time": 5,
+                    "itemid": "5c94bbff86f7747ee735c08f",
+                    "zoneid": "place_skier_12_3",
+                    "count": 1
+                },
+                {
+                    "id": "示例任务4技能需求1",
+                    "type": "Skill",
+                    "skill": "Perception",
+                    "count": 15
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [
+                {
+                    "id": "示例任务4失败条件1",
+                    "type": "Extract",
+                    "oneraid": false,
+                    "count": 1,
+                    "location": [
+                        "Woods"
+                    ],
+                    "status": [
+                        "Killed",
+                        "Left",
+                        "MissingInAction"
+                    ],
+                    "chosenextractpoint": false,
+                    "extractpoint": ""
+                }
+            ],
+            "Override": false
+        }
+    }
+}

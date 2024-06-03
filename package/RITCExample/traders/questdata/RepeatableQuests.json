@@ -1,0 +1,827 @@
+{
+    "示例每日任务": {
+        "id": "示例每日任务",
+        "name": "Daily_示例每日任务",
+        "side": "Pmc",
+        "types": [
+            "Exploration",
+            "Elimination",
+            "Completion"
+        ],
+        "resetTime": 86400,
+        "numQuests": 5,
+        "minPlayerLevel": 1,
+        "rewardScaling": {
+            "levels": [
+                1,
+                100
+            ],
+            "experience": [
+                0,
+                0
+            ],
+            "roubles": [
+                0,
+                0
+            ],
+            "items": [
+                0,
+                0
+            ],
+            "reputation": [
+                0,
+                0
+            ],
+            "rewardSpread": 0.5,
+            "skillRewardChance": [
+                0,
+                0
+            ],
+            "skillPointReward": [
+                0,
+                0
+            ]
+        },
+        "locations": {
+            "any": [
+                "any"
+            ],
+            "factory4_day": [
+                "factory4_day",
+                "factory4_night"
+            ],
+            "bigmap": [
+                "bigmap"
+            ],
+            "Woods": [
+                "Woods"
+            ],
+            "Shoreline": [
+                "Shoreline"
+            ],
+            "Interchange": [
+                "Interchange"
+            ],
+            "Lighthouse": [
+                "Lighthouse"
+            ],
+            "RezervBase": [
+                "RezervBase"
+            ],
+            "TarkovStreets": [
+                "TarkovStreets"
+            ],
+            "Sandbox": [
+                "Sandbox"
+            ]
+        },
+        "traderWhitelist": [
+            {
+                "traderId": "ExampleTrader",
+                "name": "示例商人",
+                "questTypes": [
+                    "Exploration",
+                    "Elimination",
+                    "Completion"
+                ],
+                "rewardBaseWhitelist": [
+                    "543be5f84bdc2dd4348b456a",
+                    "543be6564bdc2df4348b4568",
+                    "543be6674bdc2df1348b4569",
+                    "543be5664bdc2dd4348b4569"
+                ],
+                "rewardCanBeWeapon": false,
+                "weaponRewardChancePercent": 0
+            }
+        ],
+        "questConfig": {
+            "Exploration": {
+                "possibleSkillRewards": [],
+                "maxExtracts": 3,
+                "maxExtractsWithSpecificExit": 1,
+                "specificExits": {
+                    "probability": 0,
+                    "passageRequirementWhitelist": [
+                        "None",
+                        "WorldEvent",
+                        "Train",
+                        "Reference",
+                        "Empty"
+                    ]
+                },
+                "rewards": [
+                    {
+                        "Condition": "Finish",
+                        "Type": "Exp",
+                        "Quest": "此参数可留空, 我复制的懒得删...",
+                        "Count": 2000,
+                        "Name": "日常任务撤离经验奖励1",
+                        "Desc": "日常任务撤离经验奖励1"
+                    }
+                ]
+            },
+            "Pickup": {
+                "possibleSkillRewards": [],
+                "ItemTypeToFetchWithMaxCount": [
+                    {
+                        "itemType": "5b47574386f77428ca22b335",
+                        "minPickupCount": 1,
+                        "maxPickupCount": 1
+                    }
+                ],
+                "ItemTypesToFetch": [
+                    "5b47574386f77428ca22b335"
+                ],
+                "maxItemFetchCount": 1
+            },
+            "Completion": {
+                "possibleSkillRewards": [],
+                "minRequestedAmount": 1,
+                "maxRequestedAmount": 1,
+                "uniqueItemCount": 1,
+                "minRequestedBulletAmount": 20, 
+                "maxRequestedBulletAmount": 60,
+                "useWhitelist": true,
+                "useBlacklist": false,
+                "rewards": [
+                    {
+                        "Condition": "Finish",
+                        "Type": "Exp",
+                        "Quest": "此参数可留空, 我复制的懒得删...",
+                        "Count": 3000,
+                        "Name": "日常任务寻物上交经验奖励1",
+                        "Desc": "日常任务寻物上交经验奖励1"
+                    }
+                ]
+            },
+            "Elimination": [
+                {
+                    "levelRange": {
+                        "min": 1,
+                        "max": 100
+                    },
+                    "possibleSkillRewards": [],
+                    "targets": [
+                        {
+                            "key": "Savage",
+                            "relativeProbability": 9,
+                            "data": {
+                                "isBoss": false
+                            }
+                        },
+                        {
+                            "key": "AnyPmc",
+                            "relativeProbability": 2,
+                            "data": {
+                                "isBoss": false,
+                                "isPmc": true
+                            }
+                        },
+                        {
+                            "key": "bossBully",
+                            "relativeProbability": 0.5,
+                            "data": {
+                                "isBoss": true
+                            }
+                        },
+                        {
+                            "key": "bossGluhar",
+                            "relativeProbability": 0.5,
+                            "data": {
+                                "isBoss": true
+                            }
+                        },
+                        {
+                            "key": "bossKilla",
+                            "relativeProbability": 0.5,
+                            "data": {
+                                "isBoss": true
+                            }
+                        },
+                        {
+                            "key": "bossSanitar",
+                            "relativeProbability": 0.5,
+                            "data": {
+                                "isBoss": true
+                            }
+                        },
+                        {
+                            "key": "bossTagilla",
+                            "relativeProbability": 0.5,
+                            "data": {
+                                "isBoss": true
+                            }
+                        },
+                        {
+                            "key": "bossKojaniy",
+                            "relativeProbability": 0.5,
+                            "data": {
+                                "isBoss": true
+                            }
+                        },
+                        {
+                            "key": "bossKnight",
+                            "relativeProbability": 0.5,
+                            "data": {
+                                "isBoss": true
+                            }
+                        },
+                        {
+                            "key": "bossZryachiy",
+                            "relativeProbability": 0,
+                            "data": {
+                                "isBoss": true
+                            }
+                        },
+                        {
+                            "key": "bossBoar",
+                            "relativeProbability": 0.5,
+                            "data": {
+                                "isBoss": true
+                            }
+                        },
+                        {
+                            "key": "bossBoarSniper",
+                            "relativeProbability": 0,
+                            "data": {
+                                "isBoss": true
+                            }
+                        }
+                    ],
+                    "bodyPartProb": 0,
+                    "bodyParts": [
+                        {
+                            "key": "Head",
+                            "relativeProbability": 1,
+                            "data": [
+                                "Head"
+                            ]
+                        },
+                        {
+                            "key": "Chest",
+                            "relativeProbability": 10,
+                            "data": [
+                                "Chest",
+                                "Stomach"
+                            ]
+                        },
+                        {
+                            "key": "Arms",
+                            "relativeProbability": 0.5,
+                            "data": [
+                                "LeftArm",
+                                "RightArm"
+                            ]
+                        },
+                        {
+                            "key": "Legs",
+                            "relativeProbability": 1,
+                            "data": [
+                                "LeftLeg",
+                                "RightLeg"
+                            ]
+                        }
+                    ],
+                    "specificLocationProb": 0.5,
+                    "distLocationBlacklist": [],
+                    "distProb": 0,
+                    "maxDist": 0,
+                    "minDist": 0,
+                    "maxKills": 5,
+                    "minKills": 1,
+                    "maxBossKills": 1,
+                    "minBossKills": 1,
+                    "maxPmcKills": 5,
+                    "minPmcKills": 1,
+                    "weaponRequirementProb": 0,
+                    "weaponCategoryRequirementProb": 0,
+                    "weaponCategoryRequirements": [
+                        {
+                            "key": "Shotgun",
+                            "relativeProbability": 10,
+                            "data": [
+                                "5b5f794b86f77409407a7f92"
+                            ]
+                        },
+                        {
+                            "key": "Pistol",
+                            "relativeProbability": 10,
+                            "data": [
+                                "5b5f792486f77447ed5636b3"
+                            ]
+                        },
+                        {
+                            "key": "AssaultRifle",
+                            "relativeProbability": 3,
+                            "data": [
+                                "5b5f78fc86f77409407a7f90"
+                            ]
+                        },
+                        {
+                            "key": "AssaultCarbine",
+                            "relativeProbability": 5,
+                            "data": [
+                                "5b5f78e986f77447ed5636b1"
+                            ]
+                        },
+                        {
+                            "key": "SMG",
+                            "relativeProbability": 1,
+                            "data": [
+                                "5b5f796a86f774093f2ed3c0"
+                            ]
+                        },
+                        {
+                            "key": "Melee",
+                            "relativeProbability": 0,
+                            "data": [
+                                "5b5f7a0886f77409407a7f96"
+                            ]
+                        },
+                        {
+                            "key": "DMR",
+                            "relativeProbability": 1,
+                            "data": [
+                                "5b5f791486f774093f2ed3be"
+                            ]
+                        },
+                        {
+                            "key": "BoltAction",
+                            "relativeProbability": 5,
+                            "data": [
+                                "5b5f798886f77447ed5636b5"
+                            ]
+                        },
+                        {
+                            "key": "MachineGun",
+                            "relativeProbability": 0,
+                            "data": [
+                                "5b5f79a486f77409407a7f94"
+                            ]
+                        }
+                    ],
+                    "weaponRequirements": [
+                        {
+                            "key": "Shotgun",
+                            "relativeProbability": 10,
+                            "data": [
+                                "5447b6094bdc2dc3278b4567"
+                            ]
+                        },
+                        {
+                            "key": "Pistol",
+                            "relativeProbability": 10,
+                            "data": [
+                                "5447b5cf4bdc2d65278b4567"
+                            ]
+                        },
+                        {
+                            "key": "AssaultRifle",
+                            "relativeProbability": 3,
+                            "data": [
+                                "5447b5f14bdc2d61278b4567"
+                            ]
+                        },
+                        {
+                            "key": "AssaultCarbine",
+                            "relativeProbability": 5,
+                            "data": [
+                                "5447b5fc4bdc2d87278b4567"
+                            ]
+                        },
+                        {
+                            "key": "MarksmanRifle",
+                            "relativeProbability": 1,
+                            "data": [
+                                "5447b6194bdc2d67278b4567"
+                            ]
+                        },
+                        {
+                            "key": "SniperRifle",
+                            "relativeProbability": 1,
+                            "data": [
+                                "5447b6254bdc2dc3278b4568"
+                            ]
+                        },
+                        {
+                            "key": "SMG",
+                            "relativeProbability": 1,
+                            "data": [
+                                "5447b5e04bdc2d62278b4567"
+                            ]
+                        }
+                    ],
+                    "rewards": [
+                        {
+                            "Condition": "Finish",
+                            "Type": "Exp",
+                            "Quest": "此参数可留空, 我复制的懒得删...",
+                            "Count": 4000,
+                            "Name": "日常任务击杀经验奖励1",
+                            "Desc": "日常任务击杀经验奖励1"
+                        }
+                    ]
+                }
+            ]
+        },
+        "rewardBaseTypeBlacklist": [
+            "543be5e94bdc2df1348b4568",
+            "5b3f15d486f77432d0509248",
+            "65649eb40bf0ed77b8044453"
+        ],
+        "rewardBlacklist": [
+            "627bce33f21bc425b06ab967",
+            "59f32c3b86f77472a31742f0",
+            "59f32bb586f774757e1e8442"
+        ],
+        "rewardAmmoStackMinSize": 0
+    },
+    "测试自定义每日任务": {
+        "id": "测试自定义每日任务",
+        "name": "Daily_测试自定义每日任务",
+        "side": "Pmc",
+        "types": [
+            "RITCCustom"
+        ],
+        "resetTime": 86400,
+        "numQuests": 1,
+        "minPlayerLevel": 1,
+        "traderid": "ExampleTrader",
+        "questConfig": {
+            "Exploration": {
+                "possibleSkillRewards": [],
+                "maxExtracts": 3,
+                "maxExtractsWithSpecificExit": 1,
+                "specificExits": {
+                    "probability": 0,
+                    "passageRequirementWhitelist": [
+                        "None",
+                        "WorldEvent",
+                        "Train",
+                        "Reference",
+                        "Empty"
+                    ]
+                },
+                "rewards": [
+                    {
+                        "Condition": "Finish",
+                        "Type": "Exp",
+                        "Quest": "此参数可留空, 我复制的懒得删...",
+                        "Count": 2000,
+                        "Name": "日常任务撤离经验奖励1",
+                        "Desc": "日常任务撤离经验奖励1"
+                    }
+                ]
+            },
+            "Pickup": {
+                "possibleSkillRewards": [],
+                "ItemTypeToFetchWithMaxCount": [
+                    {
+                        "itemType": "5b47574386f77428ca22b335",
+                        "minPickupCount": 1,
+                        "maxPickupCount": 1
+                    }
+                ],
+                "ItemTypesToFetch": [
+                    "5b47574386f77428ca22b335"
+                ],
+                "maxItemFetchCount": 1
+            },
+            "Completion": {
+                "possibleSkillRewards": [],
+                "minRequestedAmount": 1,
+                "maxRequestedAmount": 1,
+                "uniqueItemCount": 1,
+                "minRequestedBulletAmount": 20, 
+                "maxRequestedBulletAmount": 60,
+                "useWhitelist": true,
+                "useBlacklist": false,
+                "rewards": [
+                    {
+                        "Condition": "Finish",
+                        "Type": "Exp",
+                        "Quest": "此参数可留空, 我复制的懒得删...",
+                        "Count": 3000,
+                        "Name": "日常任务寻物上交经验奖励1",
+                        "Desc": "日常任务寻物上交经验奖励1"
+                    }
+                ]
+            },
+            "Elimination": [
+                {
+                    "levelRange": {
+                        "min": 1,
+                        "max": 100
+                    },
+                    "possibleSkillRewards": [],
+                    "targets": [
+                        {
+                            "key": "Savage",
+                            "relativeProbability": 9,
+                            "data": {
+                                "isBoss": false
+                            }
+                        },
+                        {
+                            "key": "AnyPmc",
+                            "relativeProbability": 2,
+                            "data": {
+                                "isBoss": false,
+                                "isPmc": true
+                            }
+                        },
+                        {
+                            "key": "bossBully",
+                            "relativeProbability": 0.5,
+                            "data": {
+                                "isBoss": true
+                            }
+                        },
+                        {
+                            "key": "bossGluhar",
+                            "relativeProbability": 0.5,
+                            "data": {
+                                "isBoss": true
+                            }
+                        },
+                        {
+                            "key": "bossKilla",
+                            "relativeProbability": 0.5,
+                            "data": {
+                                "isBoss": true
+                            }
+                        },
+                        {
+                            "key": "bossSanitar",
+                            "relativeProbability": 0.5,
+                            "data": {
+                                "isBoss": true
+                            }
+                        },
+                        {
+                            "key": "bossTagilla",
+                            "relativeProbability": 0.5,
+                            "data": {
+                                "isBoss": true
+                            }
+                        },
+                        {
+                            "key": "bossKojaniy",
+                            "relativeProbability": 0.5,
+                            "data": {
+                                "isBoss": true
+                            }
+                        },
+                        {
+                            "key": "bossKnight",
+                            "relativeProbability": 0.5,
+                            "data": {
+                                "isBoss": true
+                            }
+                        },
+                        {
+                            "key": "bossZryachiy",
+                            "relativeProbability": 0,
+                            "data": {
+                                "isBoss": true
+                            }
+                        },
+                        {
+                            "key": "bossBoar",
+                            "relativeProbability": 0.5,
+                            "data": {
+                                "isBoss": true
+                            }
+                        },
+                        {
+                            "key": "bossBoarSniper",
+                            "relativeProbability": 0,
+                            "data": {
+                                "isBoss": true
+                            }
+                        }
+                    ],
+                    "bodyPartProb": 0,
+                    "bodyParts": [
+                        {
+                            "key": "Head",
+                            "relativeProbability": 1,
+                            "data": [
+                                "Head"
+                            ]
+                        },
+                        {
+                            "key": "Chest",
+                            "relativeProbability": 10,
+                            "data": [
+                                "Chest",
+                                "Stomach"
+                            ]
+                        },
+                        {
+                            "key": "Arms",
+                            "relativeProbability": 0.5,
+                            "data": [
+                                "LeftArm",
+                                "RightArm"
+                            ]
+                        },
+                        {
+                            "key": "Legs",
+                            "relativeProbability": 1,
+                            "data": [
+                                "LeftLeg",
+                                "RightLeg"
+                            ]
+                        }
+                    ],
+                    "specificLocationProb": 0.5,
+                    "distLocationBlacklist": [],
+                    "distProb": 0,
+                    "maxDist": 0,
+                    "minDist": 0,
+                    "maxKills": 5,
+                    "minKills": 1,
+                    "maxBossKills": 1,
+                    "minBossKills": 1,
+                    "maxPmcKills": 5,
+                    "minPmcKills": 1,
+                    "weaponRequirementProb": 0,
+                    "weaponCategoryRequirementProb": 0,
+                    "weaponCategoryRequirements": [
+                        {
+                            "key": "Shotgun",
+                            "relativeProbability": 10,
+                            "data": [
+                                "5b5f794b86f77409407a7f92"
+                            ]
+                        },
+                        {
+                            "key": "Pistol",
+                            "relativeProbability": 10,
+                            "data": [
+                                "5b5f792486f77447ed5636b3"
+                            ]
+                        },
+                        {
+                            "key": "AssaultRifle",
+                            "relativeProbability": 3,
+                            "data": [
+                                "5b5f78fc86f77409407a7f90"
+                            ]
+                        },
+                        {
+                            "key": "AssaultCarbine",
+                            "relativeProbability": 5,
+                            "data": [
+                                "5b5f78e986f77447ed5636b1"
+                            ]
+                        },
+                        {
+                            "key": "SMG",
+                            "relativeProbability": 1,
+                            "data": [
+                                "5b5f796a86f774093f2ed3c0"
+                            ]
+                        },
+                        {
+                            "key": "Melee",
+                            "relativeProbability": 0,
+                            "data": [
+                                "5b5f7a0886f77409407a7f96"
+                            ]
+                        },
+                        {
+                            "key": "DMR",
+                            "relativeProbability": 1,
+                            "data": [
+                                "5b5f791486f774093f2ed3be"
+                            ]
+                        },
+                        {
+                            "key": "BoltAction",
+                            "relativeProbability": 5,
+                            "data": [
+                                "5b5f798886f77447ed5636b5"
+                            ]
+                        },
+                        {
+                            "key": "MachineGun",
+                            "relativeProbability": 0,
+                            "data": [
+                                "5b5f79a486f77409407a7f94"
+                            ]
+                        }
+                    ],
+                    "weaponRequirements": [
+                        {
+                            "key": "Shotgun",
+                            "relativeProbability": 10,
+                            "data": [
+                                "5447b6094bdc2dc3278b4567"
+                            ]
+                        },
+                        {
+                            "key": "Pistol",
+                            "relativeProbability": 10,
+                            "data": [
+                                "5447b5cf4bdc2d65278b4567"
+                            ]
+                        },
+                        {
+                            "key": "AssaultRifle",
+                            "relativeProbability": 3,
+                            "data": [
+                                "5447b5f14bdc2d61278b4567"
+                            ]
+                        },
+                        {
+                            "key": "AssaultCarbine",
+                            "relativeProbability": 5,
+                            "data": [
+                                "5447b5fc4bdc2d87278b4567"
+                            ]
+                        },
+                        {
+                            "key": "MarksmanRifle",
+                            "relativeProbability": 1,
+                            "data": [
+                                "5447b6194bdc2d67278b4567"
+                            ]
+                        },
+                        {
+                            "key": "SniperRifle",
+                            "relativeProbability": 1,
+                            "data": [
+                                "5447b6254bdc2dc3278b4568"
+                            ]
+                        },
+                        {
+                            "key": "SMG",
+                            "relativeProbability": 1,
+                            "data": [
+                                "5447b5e04bdc2d62278b4567"
+                            ]
+                        }
+                    ],
+                    "rewards": [
+                        {
+                            "Condition": "Finish",
+                            "Type": "Exp",
+                            "Quest": "此参数可留空, 我复制的懒得删...",
+                            "Count": 4000,
+                            "Name": "日常任务击杀经验奖励1",
+                            "Desc": "日常任务击杀经验奖励1"
+                        }
+                    ]
+                }
+            ],
+            "RITCCustom": {
+                "name": "测试自定义每日任务",
+                "rewards": [
+                    {
+                        "Condition": "Finish",
+                        "Type": "Exp",
+                        "Quest": "此参数可留空, 我复制的懒得删...",
+                        "Count": 1000,
+                        "Name": "测试自定义每日任务寻物上交经验奖励1",
+                        "Desc": "测试自定义每日任务寻物上交经验奖励1"
+                    }
+                ],
+                "conds": {
+                    "Start": {
+                        "Data": [],
+                        "Override": false
+                    },
+                    "Finish": {
+                        "Data": [
+                            {
+                                "id": "测试自定义每日任务1寻找物品1",
+                                "type": "Find",
+                                "locale": "在战局中找到坦克电池",
+                                "enlocale": "在战局中找到坦克电池",
+                                "inraid": true,
+                                "itemid": "5d03794386f77420415576f5",
+                                "count": 1
+                            },
+                            {
+                                "id": "测试自定义每日任务1上交物品1",
+                                "type": "Hand",
+                                "locale": "上交坦克电池",
+                                "enlocale": "上交坦克电池",
+                                "inraid": true,
+                                "itemid": "5d03794386f77420415576f5",
+                                "count": 1
+                            }
+                        ],
+                        "Override": false
+                    },
+                    "Fail": {
+                        "Data": [],
+                        "Override": false
+                    }
+                }
+            }
+        }
+    }
+}

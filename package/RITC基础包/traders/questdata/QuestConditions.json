@@ -1,0 +1,58 @@
+{
+    "重复任务_剿灭": {
+        "Start": {
+            "Data": [],
+            "Override": false
+        },
+        "Finish": {
+            "Data": [
+                {
+                    "id": "重复任务_剿灭杀敌需求1",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 5,
+                    "bot": "Any",
+                    "role": [],
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "zone": [],
+                    "Equip": []
+                }
+            ],
+            "Override": false
+        },
+        "Fail": {
+            "Data": [
+                {
+                    "id": "重复任务_剿灭杀敌需求1_失败",
+                    "type": "Kill",
+                    "oneraid": false,
+                    "count": 5,
+                    "bot": "Any",
+                    "role": [],
+                    "bodyPart": [],
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": ">=",
+                    "weapon": [],
+                    "Mod": [],
+                    "location": [],
+                    "zone": [],
+                    "Equip": []
+                }
+            ],
+            "Override": false
+        }
+    }
+}

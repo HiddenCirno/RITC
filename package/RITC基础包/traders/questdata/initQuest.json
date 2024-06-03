@@ -1,0 +1,10 @@
+{
+    "重复任务_剿灭": {
+        "ID": "重复任务_剿灭",
+        "Type": "Elimination",
+        "imagepath": "/files/quest/icon/171695442789577987370_p0.jpg",
+        "TraderID": "TradeCenter",
+        "Location": "any",
+        "Restartable": true
+    }
+}

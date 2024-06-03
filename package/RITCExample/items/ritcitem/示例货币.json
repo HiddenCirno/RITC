@@ -1,0 +1,21 @@
+{
+    "_id": "示例货币",
+    "targetid": "59faff1d86f7746c51718c9c",
+    "_name": "示例货币",
+    "_props": {
+      "Name": "示例货币",
+      "ShortName": "示例货币",
+      "Description": "独立物品范例。",
+      "Weight": 0.00,
+      "BackgroundColor": "default",
+      "DefaultPrice":100, 
+      "RagfairType":"5b5f78b786f77447ed5636af",
+      "CanFindInRaid": true,
+      "CustomLoot": true,
+      "CustomLootTarget": "5696686a4bdc2da3298b456a",
+      "isMoney": true,
+      "StackMaxSize": 100000,
+      "StackMinRandom": 300,
+      "StackMaxRandom": 500
+    }
+  }

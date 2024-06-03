@@ -1,0 +1,12 @@
+{
+    "name": "罗德岛驻塔科夫贸易中心",
+    "version": "1.0.2",
+    "main": "src/mod.js",
+    "license": "CC-BY-SA",
+    "author": "千叶玲花",
+    "akiVersion": ">3.5.0",
+    "isBundleMod": true,
+	"modDependencies": {
+		"[火神之心]VulcanCore": ">2.0.0"
+	}
+}

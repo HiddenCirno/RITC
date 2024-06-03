@@ -1,0 +1,24 @@
+{
+    "_id": "龙门币",
+    "targetid": "5696686a4bdc2da3298b456a",
+    "_parent": "5448ecbe4bdc2d60728b4568",
+    "_name": "龙门币",
+    "_props": {
+      "Name": "龙门币",
+      "ShortName": "龙门币",
+      "Description": "经济危机发生后，经济的衰退与政权之间的对立让贸易参与者们举步维艰。龙门币的流通使商业复兴成为可能。",
+      "Weight": 0.00,
+      "BackgroundColor": "default",
+      "DefaultPrice":100,
+      "RagfairType":"5b5f78b786f77447ed5636af",
+      "CanFindInRaid": false,
+      "CustomLoot": false,
+      "CustomLootTarget": "59faff1d86f7746c51718c9c",
+      "isMoney": true,
+      "StackMaxSize": 100000000,
+      "Prefab": {
+        "path": "lmb.pack",
+        "rcid": ""
+      }
+    }
+  }

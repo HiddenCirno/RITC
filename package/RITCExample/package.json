@@ -1,0 +1,13 @@
+{
+    "Name": "RITC示例包",
+    "Desc": "RITC内置的标准范例包，包含独立物品示例、自定义资源包示例、完整的商人示例（包括任务、交易报价以及藏身处配方）和查询用表。",
+    "Version": "1.1.0",
+    "pathname": "RITCExample",
+    "Config": {
+        "LootBlackList": [],
+        "GenerateList": {},
+        "CustomMoney": [],
+        "CustomRagfairBlackList": [],
+        "CustomRagfairWhiteList": []
+    }
+}

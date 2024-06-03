@@ -1,0 +1,23 @@
+{
+    "_id": "至纯源石",
+    "targetid": "59faff1d86f7746c51718c9c",
+    "_name": "至纯源石",
+    "_props": {
+      "Name": "至纯源石",
+      "ShortName": "源石",
+      "Description": "在工业中用量巨大的源石结晶，但有着较高的提取难度。是世界的主要能源类精加工产物，同时也是几乎所有源石技艺得以施展的根本。如今，即使“它会传播绝症”的传言甚嚣尘上，也依旧没多少人能抵挡住它的诱惑。",
+      "Weight": 0.05,
+      "BackgroundColor": "default",
+      "DefaultPrice":81920,
+      "RagfairType":"5b47574386f77428ca22b2f1",
+      "CanFindInRaid": false,
+      "CustomLoot": false,
+      "CustomLootTarget": "59faff1d86f7746c51718c9c",
+      "isMoney": true,
+      "StackMaxSize": 100000000,
+      "Prefab": {
+        "path": "yuanshi.pack",
+        "rcid": ""
+      }
+    }
+  }

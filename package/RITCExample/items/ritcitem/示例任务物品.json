@@ -1,0 +1,56 @@
+{
+    "_id": "示例任务物品",
+    "targetid": "5910922b86f7747d96753483",
+    "_name": "示例任务物品",
+    "_props": {
+      "Name": "示例任务物品",
+      "ShortName": "示例任务物品",
+      "Description": "独立物品范例。",
+      "Weight": 0.05,
+      "BackgroundColor": "default",
+      "DefaultPrice":640000,
+      "RagfairType":"5b47574386f77428ca22b2f1",
+      "CanFindInRaid": false,
+      "CustomLoot": false,
+      "CustomLootTarget": "59faff1d86f7746c51718c9c",
+      "isMoney": false,
+      "isQuestItem": true,
+      "QuestItemData": {
+        "location": [
+            "bigmap"
+        ],
+        "locationId": "(239.183, 0.714, 160.595)",
+        "probability": 1,
+        "template": {
+            "Id": "示例任务物品刷新点",
+            "IsContainer": false,
+            "useGravity": false,
+            "randomRotation": false,
+            "Position": {
+                "x": 239.183,
+                "y": 0.714,
+                "z": 160.595
+            },
+            "Rotation": {
+                "x": 88.6121,
+                "y": 270.000122,
+                "z": 0
+            },
+            "IsGroupPosition": false,
+            "GroupPositions": [],
+            "IsAlwaysSpawn": false,
+            "Root": "示例任务物品刷新位置",
+            "Items": [
+                {
+                    "_id": "示例任务物品刷新位置",
+                    "_tpl": "示例任务物品",
+                    "upd": {
+                        "StackObjectsCount": 1
+                    }
+                }
+            ]
+        }
+      },
+      "StackMaxSize": 1
+    }
+  }

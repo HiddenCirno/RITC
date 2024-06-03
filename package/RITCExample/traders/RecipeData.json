@@ -1,0 +1,38 @@
+{
+    "示例配方1": {
+        "ID": "示例配方1",
+        "Area": 10,
+        "AreaLevel": 1,
+        "Output": "示例物品",
+        "OutputCount": 1,
+        "Time": 21600,
+        "NeedFuel": false,
+        "Locked": false,
+        "Quest": "",
+        "Require": {
+            "Tool": {
+                "590c639286f774151567fa95": 1
+            },
+            "Item": {
+                "58d3db5386f77426186285a0": 1
+            }
+        }
+    },
+    "示例配方2": {
+        "ID": "示例配方2",
+        "Area": 7,
+        "AreaLevel": 2,
+        "Output": "示例针剂",
+        "OutputCount": 1,
+        "Time": 21600,
+        "NeedFuel": false,
+        "Locked": true,
+        "Quest": "示例任务4",
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "544fb3f34bdc2d03748b456a": 2
+            }
+        }
+    }
+}

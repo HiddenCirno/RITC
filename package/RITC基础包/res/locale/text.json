@@ -1,0 +1,21 @@
+{
+    
+    "每日资源_赤金 end": "占位符，方便复制。",
+    "每日资源_赤金 startedMessageText ExampleTrader 0": "",
+    "每日资源_赤金 failMessageText ExampleTrader 0": "我怎么记得日常任务失败是不会发消息的来着？可能要留空。",
+    "每日资源_赤金 successMessageText ExampleTrader 0": "订单完成。",
+    "每日资源_赤金 description TradeCenter 0": "订单激活：赤金制造",
+    "每日资源_赤金 changeQuestMessageText ExampleTrader 0": "你确定要更换订单吗？",
+    "每日任务_剿灭 end": "占位符，方便复制。",
+    "每日任务_剿灭 startedMessageText ExampleTrader 0": "",
+    "每日任务_剿灭 failMessageText ExampleTrader 0": "我怎么记得日常任务失败是不会发消息的来着？可能要留空。",
+    "每日任务_剿灭 successMessageText ExampleTrader 0": "任务完成。",
+    "每日任务_剿灭 description TradeCenter 0": "每日任务：剿灭",
+    "每日任务_剿灭 changeQuestMessageText ExampleTrader 0": "你确定要更换任务吗？",
+    "每日任务_Boss剿灭 end": "占位符，方便复制。",
+    "每日任务_Boss剿灭 startedMessageText ExampleTrader 0": "",
+    "每日任务_Boss剿灭 failMessageText ExampleTrader 0": "我怎么记得日常任务失败是不会发消息的来着？可能要留空。",
+    "每日任务_Boss剿灭 successMessageText ExampleTrader 0": "任务完成。",
+    "每日任务_Boss剿灭 description TradeCenter 0": "每日任务：剿灭",
+    "每日任务_Boss剿灭 changeQuestMessageText ExampleTrader 0": "你确定要更换任务吗？"
+}

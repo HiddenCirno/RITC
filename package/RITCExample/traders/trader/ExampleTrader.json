@@ -1,0 +1,134 @@
+{
+    "_id": "ExampleTrader",
+    "balance_dol": 80000000,
+    "balance_eur": 80000000,
+    "balance_rub": 80000000,
+    "insurance": {
+        "availability": false,
+        "excluded_category": [],
+        "max_return_hour": 6,
+        "max_storage_time": 168,
+        "min_payment": 0,
+        "min_return_hour": 3
+    },
+    "insuranceLog": {
+        "insuranceStart": [
+            "5914450f86f7744bb83be8a2 0",
+            "5914450f86f7744bb83be8a2 1",
+            "5914450f86f7744bb83be8a2 2"
+        ],
+        "insuranceFound": [
+            "58fe0e4586f774728248ca13 0",
+            "58fe0e4586f774728248ca13 1",
+            "58fe0e4586f774728248ca13 2",
+            "58fe0e4586f774728248ca13 3",
+            "58fe0e4586f774728248ca13 4"
+        ],
+        "insuranceFailed": [
+            "595f995d86f77476b51172ee 0",
+            "595f995d86f77476b51172ee 1"
+        ],
+        "insuranceFailedLabs": [
+            "5c1a3e0686f77445b95c29b3 0",
+            "5c1a3e0686f77445b95c29b3 1",
+            "5c1a3e0686f77445b95c29b3 2"
+        ],
+        "insuranceExpired": [
+            "5900a71886f7742d9a47454c 0",
+            "5900a71886f7742d9a47454c 1",
+            "5900a71886f7742d9a47454c 2",
+            "5900a71886f7742d9a47454c 3"
+        ],
+        "insuranceComplete": [
+            "59008bca86f7745cb11ae67b 0",
+            "59008bca86f7745cb11ae67b 1",
+            "59008bca86f7745cb11ae67b 2",
+            "59008bca86f7745cb11ae67b 3",
+            "59008bca86f7745cb11ae67b 4"
+        ]
+    },
+    "insuranceChance": 100,
+    "insuranceMulti": 0.01,
+    "refreshTime": 3600,
+    "items_buy": {
+        "category": [
+            "543be5664bdc2dd4348b4569",
+            "543be5e94bdc2df1348b4568",
+            "543be6674bdc2df1348b4569",
+            "5448eb774bdc2d0a728b4567",
+            "5448ecbe4bdc2d60728b4568",
+            "5448f3ac4bdc2dce718b4569"
+        ],
+        "id_list": []
+    },
+    "items_buy_prohibited": {
+        "category": [],
+        "id_list": []
+    },
+    "location": "第零象限",
+    "loyaltyLevels": [
+        {
+            "buy_price_coef": 44,
+            "exchange_price_coef": 0,
+            "heal_price_coef": 0,
+            "insurance_price_coef": 10,
+            "minLevel": 1,
+            "minSalesSum": 0,
+            "minStanding": 0,
+            "repair_price_coef": 150
+        },
+        {
+            "buy_price_coef": 38,
+            "exchange_price_coef": 0,
+            "heal_price_coef": 0,
+            "insurance_price_coef": 8,
+            "minLevel": 12,
+            "minSalesSum": 750000,
+            "minStanding": 0.2,
+            "repair_price_coef": 125
+        },
+        {
+            "buy_price_coef": 32,
+            "exchange_price_coef": 0,
+            "heal_price_coef": 0,
+            "insurance_price_coef": 6,
+            "minLevel": 23,
+            "minSalesSum": 1600000,
+            "minStanding": 0.35,
+            "repair_price_coef": 100
+        },
+        {
+            "buy_price_coef": 26,
+            "exchange_price_coef": 0,
+            "heal_price_coef": 0,
+            "insurance_price_coef": 4,
+            "minLevel": 31,
+            "minSalesSum": 2500000,
+            "minStanding": 0.5,
+            "repair_price_coef": 75
+        }
+    ],
+    "name": "范例商人",
+    "description": "这是一个用于RITC示范包的标准商人。",
+    "nickname": "范例商人",
+    "repair": {
+        "availability": false,
+        "currency": "5449016a4bdc2d6f028b456f",
+        "currency_coefficient": 1,
+        "excluded_category": [],
+        "excluded_id_list": [],
+        "quality": "0.1"
+    },
+    "sell_category": [
+        "5b47574386f77428ca22b344",
+        "5b47574386f77428ca22b2f1",
+        "5b47574386f77428ca22b340",
+        "5b47574386f77428ca22b2f4",
+        "5b47574386f77428ca22b2f3",
+        "5b47574386f77428ca22b342",
+        "5b47574386f77428ca22b341",
+        "5b5f6fa186f77409407a7eb7",
+        "5b47574386f77428ca22b343"
+    ],
+    "surname": "范例商人"
+}

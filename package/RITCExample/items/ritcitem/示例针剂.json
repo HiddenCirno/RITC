@@ -1,0 +1,39 @@
+{
+    "_id": "示例针剂",
+    "targetid": "5c0e531d86f7747fa23f4d42",
+    "_name": "SJ6_TGLabs",
+    "_parent": "5448f3a64bdc2d60728b456a",
+    "_type": "Item",
+    "_props": {
+      "Name": "示例针剂",
+      "ShortName": "示例针剂",
+      "Description": "独立物品范例。",
+      "DefaultPrice":10000,
+      "RagfairType":"5b47574386f77428ca22b33a",
+      "CanFindInRaid": false,
+      "CustomLoot": false,
+      "CustomLootTarget": "59faff1d86f7746c51718c9c",
+      "isMoney": false,
+      "StimulatorBuffs": "BuffsTestSyringe",
+      "BuffValue": [
+          {
+              "BuffType": "HydrationRate",
+              "Chance": 1,
+              "Delay": 1,
+              "Duration": 120,
+              "Value": 10,
+              "AbsoluteValue": true,
+              "SkillName": ""
+          },
+          {
+              "BuffType": "EnergyRate",
+              "Chance": 1,
+              "Delay": 1,
+              "Duration": 120,
+              "Value": 10,
+              "AbsoluteValue": true,
+              "SkillName": ""
+          }
+      ]
+    }
+  }

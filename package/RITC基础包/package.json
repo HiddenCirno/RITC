@@ -1,0 +1,13 @@
+{
+    "Name": "RITC基础包",
+    "Desc": "一个测试用的基础包",
+    "Version": "1.0.0",
+    "pathname": "RITC基础包",
+    "Config": {
+        "LootBlackList": [],
+        "GenerateList": {},
+        "CustomMoney": [],
+        "CustomRagfairBlackList": [],
+        "CustomRagfairWhiteList": []
+    }
+}

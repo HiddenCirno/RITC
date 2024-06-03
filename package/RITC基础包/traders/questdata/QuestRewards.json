@@ -1,0 +1,44 @@
+[
+    {
+        "Condition": "Failed",
+        "Type": "Exp",
+        "Quest": "重复任务_剿灭",
+        "Count": 2000,
+        "Name": "重复任务_剿灭经验奖励1",
+        "Desc": "重复任务_剿灭经验奖励1"
+    },
+    {
+        "Items": [
+            {
+                "_id": "重复任务_剿灭物品奖励1物品",
+                "_tpl": "5449016a4bdc2d6f028b456f",
+                "upd": {
+                    "StackObjectsCount": 20000
+                }
+            }
+        ],
+        "Quest": "重复任务_剿灭",
+        "Condition": "Finish",
+        "Type": "Item",
+        "Count": 20000,
+        "Name": "重复任务_剿灭物品奖励1",
+        "Desc": "重复任务_剿灭物品奖励1"
+    },
+    {
+        "Items": [
+            {
+                "_id": "重复任务_剿灭物品奖励2物品",
+                "_tpl": "5449016a4bdc2d6f028b456f",
+                "upd": {
+                    "StackObjectsCount": 20000
+                }
+            }
+        ],
+        "Quest": "重复任务_剿灭",
+        "Condition": "Failed",
+        "Type": "Item",
+        "Count": 20000,
+        "Name": "重复任务_剿灭物品奖励2",
+        "Desc": "重复任务_剿灭物品奖励2"
+    }
+]

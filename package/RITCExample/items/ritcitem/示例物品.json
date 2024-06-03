@@ -1,0 +1,23 @@
+{
+    "_id": "示例物品",
+    "targetid": "5e2aedd986f7746d404f3aa4",
+    "_name": "示例物品",
+    "_props": {
+      "Name": "草方块",
+      "ShortName": "草方块",
+      "Description": "独立物品范例。",
+      "Weight": 0.05,
+      "BackgroundColor": "default",
+      "DefaultPrice":640000,
+      "RagfairType":"5b47574386f77428ca22b2f1",
+      "CanFindInRaid": false,
+      "CustomLoot": false,
+      "CustomLootTarget": "59faff1d86f7746c51718c9c",
+      "isMoney": false,
+      "StackMaxSize": 1,
+      "Prefab": {
+        "path": "grassblock.pack",
+        "rcid": ""
+      }
+    }
+  }

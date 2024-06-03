@@ -1,0 +1,23 @@
+{
+    "_id": "合成玉",
+    "targetid": "59faff1d86f7746c51718c9c",
+    "_name": "合成玉",
+    "_props": {
+      "Name": "合成玉",
+      "ShortName": "合成玉",
+      "Description": "由至纯源石加工而来，混合了其他矿物以后的源石产物。以前仅能当作一些传导元件使用，现在却逐渐成为人事交互关系中令人信服的象征物。",
+      "Weight": 0.05,
+      "BackgroundColor": "default",
+      "DefaultPrice":81920,
+      "RagfairType":"5b47574386f77428ca22b2f1",
+      "CanFindInRaid": false,
+      "CustomLoot": false,
+      "CustomLootTarget": "59faff1d86f7746c51718c9c",
+      "isMoney": true,
+      "StackMaxSize": 100000000,
+      "Prefab": {
+        "path": "hcy.pack",
+        "rcid": ""
+      }
+    }
+  }
