@@ -9,6 +9,8 @@
                 {
                     "id": "重复任务_剿灭杀敌需求1",
                     "type": "Kill",
+                    "locale": "消灭任意目标",
+                    "elocale": "消灭任意目标",
                     "oneraid": false,
                     "count": 5,
                     "bot": "Any",
@@ -32,8 +34,10 @@
         "Fail": {
             "Data": [
                 {
-                    "id": "重复任务_剿灭杀敌需求1_失败",
+                    "id": "重复任务_剿灭杀敌需求1",
                     "type": "Kill",
+                    "locale": "消灭任意目标",
+                    "elocale": "消灭任意目标",
                     "oneraid": false,
                     "count": 5,
                     "bot": "Any",

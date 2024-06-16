@@ -1,3 +1,242 @@
 [
-    
+    {
+        "ID": "1源石",
+        "Trader": "TradeCenter",
+        "Item": [
+            {
+                "_id": "1源石",
+                "_tpl": "至纯源石",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 60000
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "6源石",
+        "Trader": "TradeCenter",
+        "Item": [
+            {
+                "_id": "6源石",
+                "_tpl": "6源石",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 300000
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "20源石",
+        "Trader": "TradeCenter",
+        "Item": [
+            {
+                "_id": "20源石",
+                "_tpl": "20源石",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 980000
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "40源石",
+        "Trader": "TradeCenter",
+        "Item": [
+            {
+                "_id": "40源石",
+                "_tpl": "40源石",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 1980000
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "66源石",
+        "Trader": "TradeCenter",
+        "Item": [
+            {
+                "_id": "66源石",
+                "_tpl": "66源石",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 3280000
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "130源石",
+        "Trader": "TradeCenter",
+        "Item": [
+            {
+                "_id": "130源石",
+                "_tpl": "130源石",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 6480000
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "200合成玉",
+        "Trader": "TradeCenter",
+        "Item": [
+            {
+                "_id": "200合成玉",
+                "_tpl": "200合成玉",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "至纯源石": 1
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "2000合成玉",
+        "Trader": "TradeCenter",
+        "Item": [
+            {
+                "_id": "2000合成玉",
+                "_tpl": "2000合成玉",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "至纯源石": 10
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "普通单抽",
+        "Trader": "TradeCenter",
+        "Item": [
+            {
+                "_id": "普通单抽",
+                "_tpl": "普通单抽",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "合成玉": 600
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "普通十连",
+        "Trader": "TradeCenter",
+        "Item": [
+            {
+                "_id": "普通十连",
+                "_tpl": "普通十连",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "合成玉": 6000
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    }
 ]

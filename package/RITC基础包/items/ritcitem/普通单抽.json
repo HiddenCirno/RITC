@@ -1,0 +1,33 @@
+{
+    "_id": "普通单抽",
+    "targetid": "63a8970d7108f713591149f5",
+    "_name": "普通单抽",
+    "_props": {
+      "Name": "寻访凭证\"实验室\"",
+      "ShortName": "寻访凭证",
+      "Description": "罗德岛外务所制作的许可书，能够进行一次抽奖。",
+      "Weight": 0,
+      "BackgroundColor": "default",
+      "Width": 2,
+      "Height": 2,
+      "DefaultPrice":10000,
+      "RagfairType":"5b47574386f77428ca22b2f1",
+      "CanFindInRaid": false,
+      "CustomLoot": false,
+      "CustomLootTarget": "59faff1d86f7746c51718c9c",
+      "isMoney": false,
+      "StackMaxSize": 10000000,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "Prefab": {
+        "path": "draw1.pack",
+        "rcid": ""
+      },
+      "isadvGiftBox": true,
+      "advBoxData": {
+          "count": 1,
+          "forcefindinraid": true,
+          "giftdata": "实验室卡池"
+      }
+    }
+  }

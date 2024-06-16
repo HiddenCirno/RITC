@@ -1556,7 +1556,7 @@
                                 "_id": "每日任务_撤离奖励1物品",
                                 "_tpl": "龙门币",
                                 "upd": {
-                                    "StackObjectsCount": 1000
+                                    "StackObjectsCount": 2000
                                 }
                             }
                         ],

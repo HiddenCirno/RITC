@@ -6,7 +6,7 @@
       "Name": "赤金",
       "ShortName": "赤金",
       "Description": "需要多少矿石才能提炼出如此贵重的金条呢——之类的想法已经不重要了。现在它正整整齐齐堆在你眼前，这才是关键啊。",
-      "Weight": 0.05,
+      "Weight": 0,
       "BackgroundColor": "default",
       "DefaultPrice":200000,
       "RagfairType":"5b47574386f77428ca22b2f1",
@@ -15,9 +15,13 @@
       "CustomLootTarget": "59faff1d86f7746c51718c9c",
       "isMoney": true,
       "StackMaxSize": 100000000,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "InsuranceDisabled": true,
       "Prefab": {
         "path": "redgold.pack",
         "rcid": ""
-      }
+      },
+      "DiscardLimit": -1
     }
   }

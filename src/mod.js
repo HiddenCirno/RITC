@@ -3,22 +3,17 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const ConfigTypes_1 = require("C:/snapshot/project/obj/models/enums/ConfigTypes");
 //
 class Mod {
-    static container;
-    preAkiLoad(container) {
-        const configServer = container.resolve("ConfigServer");
-        const preAkiModLoader = container.resolve("PreAkiModLoader");
-        const staticRouterModService = container.resolve("StaticRouterModService");
-        const imageRouter = container.resolve("ImageRouter");
+    preSptLoad(container) {
     }
     postDBLoad(container) {
-        const PreAkiModLoader = container.resolve("PreAkiModLoader");
+        const PreSptModLoader = container.resolve("PreSptModLoader");
         const FuncDatabaseServer = container.resolve("DatabaseServer");
         const FuncImporterUtil = container.resolve("ImporterUtil");
         const VFS = container.resolve("VFS");
         const JsonUtil = container.resolve("JsonUtil");
         const common = container.resolve("VulcanCommon");
         const ClientDB = FuncDatabaseServer.getTables();
-        const ModPath = PreAkiModLoader.getModPath("罗德岛驻塔科夫贸易中心");
+        const ModPath = PreSptModLoader.getModPath("罗德岛驻塔科夫贸易中心");
         const DB = FuncImporterUtil.loadRecursive(`${ModPath}db/`);
         const Package = FuncImporterUtil.loadRecursive(`${ModPath}package/`);
         const imageRouter = container.resolve("ImageRouter");

@@ -1,50 +1,45 @@
 import { DependencyContainer } from "tsyringe";
 import crypto from "crypto";
-import { IPostDBLoadMod } from "@spt-aki/models/external/IPostDBLoadMod";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { IPreAkiLoadMod } from "@spt-aki/models/external/IPreAkiLoadMod";
-import { DialogueHelper } from "@spt-aki/helpers/DialogueHelper";
-import { IPostAkiLoadMod } from "@spt-aki/models/external/IPostAkiLoadMod";
-import type { StaticRouterModService } from "@spt-aki/services/mod/staticRouter/StaticRouterModService";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ImageRouter } from "@spt-aki/routers/ImageRouter";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { ITraderConfig, UpdateTime } from "@spt-aki/models/spt/config/ITraderConfig";
-import { IInventoryConfig } from "@spt-aki/models/spt/config/IInventoryConfig";
-import { IModLoader } from "@spt-aki/models/spt/mod/IModLoader";
-import { PreAkiModLoader } from "@spt-aki/loaders/PreAkiModLoader";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { Traders } from "@spt-aki/models/enums/Traders";
-import { QuestStatus } from "@spt-aki/models/enums/QuestStatus";
-import { MessageType } from "@spt-aki/models/enums/MessageType";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
-import { VFS } from "@spt-aki/utils/VFS"
-import { NotificationSendHelper } from "@spt-aki/helpers/NotificationSendHelper";
-import { NotifierHelper } from "@spt-aki/helpers/NotifierHelper";
-import { QuestHelper } from "@spt-aki/helpers/QuestHelper";
-import { ImporterUtil } from "@spt-aki/utils/ImporterUtil"
-import { BundleLoader } from "@spt-aki/loaders/BundleLoader";
+import { IPostDBLoadMod } from "@spt/models/external/IPostDBLoadMod";
+import { DatabaseServer } from "@spt/servers/DatabaseServer";
+import { IPreSptLoadMod } from "@spt/models/external/IPreSptLoadMod";
+import { DialogueHelper } from "@spt/helpers/DialogueHelper";
+import { IPostAkiLoadMod } from "@spt/models/external/IPostAkiLoadMod";
+import type { StaticRouterModService } from "@spt/services/mod/staticRouter/StaticRouterModService";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { ImageRouter } from "@spt/routers/ImageRouter";
+import { ConfigServer } from "@spt/servers/ConfigServer";
+import { ConfigTypes } from "@spt/models/enums/ConfigTypes";
+import { ITraderConfig, UpdateTime } from "@spt/models/spt/config/ITraderConfig";
+import { IInventoryConfig } from "@spt/models/spt/config/IInventoryConfig";
+import { IModLoader } from "@spt/models/spt/mod/IModLoader";
+import { PreSptModLoader } from "@spt/loaders/PreSptModLoader";
+import { JsonUtil } from "@spt/utils/JsonUtil";
+import { Traders } from "@spt/models/enums/Traders";
+import { QuestStatus } from "@spt/models/enums/QuestStatus";
+import { MessageType } from "@spt/models/enums/MessageType";
+import { HashUtil } from "@spt/utils/HashUtil";
+import { VFS } from "@spt/utils/VFS"
+import { NotificationSendHelper } from "@spt/helpers/NotificationSendHelper";
+import { NotifierHelper } from "@spt/helpers/NotifierHelper";
+import { QuestHelper } from "@spt/helpers/QuestHelper";
+import { ImporterUtil } from "@spt/utils/ImporterUtil"
+import { BundleLoader } from "@spt/loaders/BundleLoader";
 import { VulcanCommon } from "../../[火神之心]VulcanCore/src/vulcan-api/Common";
-import { IQuestConfig } from "@spt-aki/models/spt/config/IQuestConfig";
+import { IQuestConfig } from "@spt/models/spt/config/IQuestConfig";
 //
-class Mod implements IPreAkiLoadMod {
-    private static container: DependencyContainer;
-    public preAkiLoad(container: DependencyContainer): void {
-        const configServer = container.resolve<ConfigServer>("ConfigServer");
-        const preAkiModLoader = container.resolve("PreAkiModLoader");
-        const staticRouterModService = container.resolve<StaticRouterModService>("StaticRouterModService");
-        const imageRouter = container.resolve<ImageRouter>("ImageRouter")
+class Mod implements IPreSptLoadMod {
+    public preSptLoad(container: DependencyContainer): void {
     }
     public postDBLoad(container: DependencyContainer): void {
-        const PreAkiModLoader = container.resolve("PreAkiModLoader");
+        const PreSptModLoader = container.resolve("PreSptModLoader");
         const FuncDatabaseServer = container.resolve<DatabaseServer>("DatabaseServer");
         const FuncImporterUtil = container.resolve<ImporterUtil>("ImporterUtil")
         const VFS = container.resolve<VFS>("VFS");
         const JsonUtil = container.resolve<JsonUtil>("JsonUtil");
         const common = container.resolve<VulcanCommon>("VulcanCommon")
         const ClientDB = FuncDatabaseServer.getTables();
-        const ModPath = PreAkiModLoader.getModPath("罗德岛驻塔科夫贸易中心")
+        const ModPath = PreSptModLoader.getModPath("罗德岛驻塔科夫贸易中心")
         const DB = FuncImporterUtil.loadRecursive(`${ModPath}db/`)
         const Package = FuncImporterUtil.loadRecursive(`${ModPath}package/`)
         const imageRouter = container.resolve<ImageRouter>("ImageRouter");

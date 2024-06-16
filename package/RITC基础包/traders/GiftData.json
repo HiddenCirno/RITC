@@ -1,0 +1,306 @@
+{
+    "实验室卡池": {
+        "name": "实验室卡池",
+        "basereward": {
+            "superrare": {
+                "havebasereward": true,
+                "chance": 0.04,
+                "upchance": 0.5,
+                "upaddchance": 0.5,
+                "chancegrowcount": 73,
+                "chancegrowpercount": 0.06
+            },
+            "rare": {
+                "havebasereward": true,
+                "chance": 0.1,
+                "upchance": 0.25,
+                "upaddchance": 0.25,
+                "chancegrowcount": 0,
+                "chancegrowpercount": 0.1
+            },
+            "normal": {
+                "upchance": 0
+            }
+        },
+        "itempool": {
+            "superrare": {
+                "chanceup": [
+                    [
+                        {
+                            "name": "黑卡",
+                            "itemid": "5c1d0f4986f7744bb01837fa",
+                            "type": "Item",
+                            "stackcount": 1
+                        },
+                        {
+                            "name": "高级凭证",
+                            "itemid": "高级凭证",
+                            "type": "Item",
+                            "stackcount": 10
+                        }
+                    ]
+                ],
+                "normal": [
+                    [
+                        {
+                            "name": "黄卡",
+                            "itemid": "5c1d0d6d86f7744bb2683e1f",
+                            "type": "Item",
+                            "stackcount": 1
+                        },
+                        {
+                            "name": "高级凭证",
+                            "itemid": "高级凭证",
+                            "type": "Item",
+                            "stackcount": 10
+                        }
+                    ],
+                    [
+                        {
+                            "name": "紫卡",
+                            "itemid": "5c1e495a86f7743109743dfb",
+                            "type": "Item",
+                            "stackcount": 1
+                        },
+                        {
+                            "name": "高级凭证",
+                            "itemid": "高级凭证",
+                            "type": "Item",
+                            "stackcount": 10
+                        }
+                    ],
+                    [
+                        {
+                            "name": "21WS",
+                            "itemid": "5e42c83786f7742a021fdf3c",
+                            "type": "Item",
+                            "stackcount": 1
+                        },
+                        {
+                            "name": "高级凭证",
+                            "itemid": "高级凭证",
+                            "type": "Item",
+                            "stackcount": 10
+                        }
+                    ],
+                    [
+                        {
+                            "name": "11SR",
+                            "itemid": "5e42c81886f7742a01529f57",
+                            "type": "Item",
+                            "stackcount": 1
+                        },
+                        {
+                            "name": "高级凭证",
+                            "itemid": "高级凭证",
+                            "type": "Item",
+                            "stackcount": 10
+                        }
+                    ]
+                ]
+            },
+            "rare": {
+                "chanceup": [
+                    [
+                        {
+                            "name": "白卡",
+                            "itemid": "5c94bbff86f7747ee735c08f",
+                            "type": "Item",
+                            "stackcount": 1
+                        },
+                        {
+                            "name": "普通凭证",
+                            "itemid": "普通凭证",
+                            "type": "Item",
+                            "stackcount": 30
+                        }
+
+                    ]
+                ],
+                "normal": [
+                    [
+                        {
+                            "name": "MULE针",
+                            "itemid": "5ed51652f6c34d2cc26336a1",
+                            "type": "Item",
+                            "stackcount": 1
+                        },
+                        {
+                            "name": "普通凭证",
+                            "itemid": "普通凭证",
+                            "type": "Item",
+                            "stackcount": 30
+                        }
+                    ],
+                    [
+                        {
+                            "name": "记号卡",
+                            "itemid": "5efde6b4f5448336730dbd61",
+                            "type": "Item",
+                            "stackcount": 1
+                        },
+                        {
+                            "name": "普通凭证",
+                            "itemid": "普通凭证",
+                            "type": "Item",
+                            "stackcount": 30
+                        }
+                    ],
+                    [
+                        {
+                            "name": "SJ12",
+                            "itemid": "637b612fb7afa97bfc3d7005",
+                            "type": "Item",
+                            "stackcount": 1
+                        },
+                        {
+                            "name": "普通凭证",
+                            "itemid": "普通凭证",
+                            "type": "Item",
+                            "stackcount": 30
+                        }
+                    ],
+                    [
+                        {
+                            "name": "SJ9",
+                            "itemid": "5fca13ca637ee0341a484f46",
+                            "type": "Item",
+                            "stackcount": 1
+                        },
+                        {
+                            "name": "普通凭证",
+                            "itemid": "普通凭证",
+                            "type": "Item",
+                            "stackcount": 30
+                        }
+                    ],
+                    [
+                        {
+                            "name": "军械库钥匙",
+                            "itemid": "5c1f79a086f7746ed066fb8f",
+                            "type": "Item",
+                            "stackcount": 1
+                        },
+                        {
+                            "name": "普通凭证",
+                            "itemid": "普通凭证",
+                            "type": "Item",
+                            "stackcount": 30
+                        }
+                    ]
+                    
+                ]
+            },
+            "normal": {
+                "chanceup": [
+                    {
+                        "name": "白卡",
+                        "itemid": "5c94bbff86f7747ee735c08f",
+                        "type": "Item",
+                        "stackcount": 1
+                    }
+                ],
+                "normal": [
+                    [
+                        {
+                            "name": "武器区钥匙",
+                            "itemid": "5c1e2d1f86f77431e9280bee",
+                            "type": "Item",
+                            "stackcount": 1
+                        },
+                        {
+                            "name": "普通凭证",
+                            "itemid": "普通凭证",
+                            "type": "Item",
+                            "stackcount": 5
+                        }
+                    ],
+                    [
+                        {
+                            "name": "经理办钥匙",
+                            "itemid": "5c1e2a1e86f77431ea0ea84c",
+                            "type": "Item",
+                            "stackcount": 1
+                        },
+                        {
+                            "name": "普通凭证",
+                            "itemid": "普通凭证",
+                            "type": "Item",
+                            "stackcount": 5
+                        }
+                    ],
+                    [
+                        {
+                            "name": "OBD2",
+                            "itemid": "637b60c3b7afa97bfc3d7001",
+                            "type": "Item",
+                            "stackcount": 1
+                        },
+                        {
+                            "name": "普通凭证",
+                            "itemid": "普通凭证",
+                            "type": "Item",
+                            "stackcount": 5
+                        }
+                    ],
+                    [
+                        {
+                            "name": "P22",
+                            "itemid": "5ed515ece452db0eb56fc028",
+                            "type": "Item",
+                            "stackcount": 1
+                        },
+                        {
+                            "name": "普通凭证",
+                            "itemid": "普通凭证",
+                            "type": "Item",
+                            "stackcount": 5
+                        }
+                    ],
+                    [
+                        {
+                            "name": "PNB",
+                            "itemid": "637b6179104668754b72f8f5",
+                            "type": "Item",
+                            "stackcount": 1
+                        },
+                        {
+                            "name": "普通凭证",
+                            "itemid": "普通凭证",
+                            "type": "Item",
+                            "stackcount": 5
+                        }
+                    ],
+                    [
+                        {
+                            "name": "SJ1",
+                            "itemid": "5c0e531286f7747fa54205c2",
+                            "type": "Item",
+                            "stackcount": 1
+                        },
+                        {
+                            "name": "普通凭证",
+                            "itemid": "普通凭证",
+                            "type": "Item",
+                            "stackcount": 5
+                        }
+                    ],
+                    [
+                        {
+                            "name": "SJ6",
+                            "itemid": "5c0e531d86f7747fa23f4d42",
+                            "type": "Item",
+                            "stackcount": 1
+                        },
+                        {
+                            "name": "普通凭证",
+                            "itemid": "普通凭证",
+                            "type": "Item",
+                            "stackcount": 5
+                        }
+                    ]
+                ]
+            }
+        }
+    }
+}

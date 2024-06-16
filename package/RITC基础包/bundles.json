@@ -21,22 +21,22 @@
             ]
         },
         {
-            "key": "string",
+            "key": "draw1.pack",
 			"dependencyKeys": [
             ]
         },
         {
-            "key": "string",
+            "key": "draw10.pack",
 			"dependencyKeys": [
             ]
         },
         {
-            "key": "string",
+            "key": "passport_t1.pack",
 			"dependencyKeys": [
             ]
         },
         {
-            "key": "string",
+            "key": "passport_t2.pack",
 			"dependencyKeys": [
             ]
         },

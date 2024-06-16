@@ -1,0 +1,39 @@
+{
+    "_id": "20源石",
+    "targetid": "63a8970d7108f713591149f5",
+    "_name": "20源石",
+    "_props": {
+      "Name": "一堆至纯源石",
+      "ShortName": "20源石",
+      "Description": "堆叠在一起的物资，打开可以获得20至纯源石。",
+      "Weight": 0,
+      "BackgroundColor": "default",
+      "Width": 2,
+      "Height": 2,
+      "DefaultPrice":10000,
+      "RagfairType":"5b47574386f77428ca22b2f1",
+      "CanFindInRaid": false,
+      "CustomLoot": false,
+      "CustomLootTarget": "59faff1d86f7746c51718c9c",
+      "isMoney": false,
+      "StackMaxSize": 10000000,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "Prefab": {
+        "path": "yuanshi.pack",
+        "rcid": ""
+      },
+      "isStaticBox": true,
+      "StaticBoxData": {
+          "forcefindinraid": false,
+          "giftdata": [
+              {
+                  "name": "至纯源石",
+                  "itemid": "至纯源石",
+                  "type": "Item",
+                  "stackcount": 20
+              }
+          ]
+      }
+    }
+  }

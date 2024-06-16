@@ -1,0 +1,27 @@
+{
+    "_id": "普通凭证",
+    "targetid": "59faff1d86f7746c51718c9c",
+    "_name": "普通凭证",
+    "_props": {
+      "Name": "资质凭证",
+      "ShortName": "资质凭证",
+      "Description": "当今时代，搜罗人才是一件困难的事；而若要从躲在阴暗处的感染者中寻求可用之才，更无异于大海捞针。如果罗德岛能成为包容所有人的大海，是否就可以省去诸多烦恼呢？",
+      "Weight": 0,
+      "BackgroundColor": "default",
+      "DefaultPrice":100,
+      "RagfairType":"5b47574386f77428ca22b2f1",
+      "CanFindInRaid": false,
+      "CustomLoot": false,
+      "CustomLootTarget": "59faff1d86f7746c51718c9c",
+      "isMoney": true,
+      "StackMaxSize": 100000000,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "InsuranceDisabled": true,
+      "Prefab": {
+        "path": "passport_t1.pack",
+        "rcid": ""
+      },
+      "DiscardLimit": -1
+    }
+  }

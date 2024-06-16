@@ -1,0 +1,39 @@
+{
+    "_id": "200合成玉",
+    "targetid": "63a8970d7108f713591149f5",
+    "_name": "200合成玉",
+    "_props": {
+      "Name": "一堆合成玉",
+      "ShortName": "200合成玉",
+      "Description": "堆叠在一起的物资，打开可以获得200合成玉。",
+      "Weight": 0,
+      "BackgroundColor": "default",
+      "Width": 2,
+      "Height": 2,
+      "DefaultPrice":10000,
+      "RagfairType":"5b47574386f77428ca22b2f1",
+      "CanFindInRaid": false,
+      "CustomLoot": false,
+      "CustomLootTarget": "59faff1d86f7746c51718c9c",
+      "isMoney": false,
+      "StackMaxSize": 10000000,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "Prefab": {
+        "path": "hcy.pack",
+        "rcid": ""
+      },
+      "isStaticBox": true,
+      "StaticBoxData": {
+          "forcefindinraid": false,
+          "giftdata": [
+              {
+                  "name": "合成玉",
+                  "itemid": "合成玉",
+                  "type": "Item",
+                  "stackcount": 200
+              }
+          ]
+      }
+    }
+  }
