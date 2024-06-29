@@ -1,0 +1,106 @@
+[
+    {
+        "Name": "BLACKSPEAR_基础预设",
+        "PresetName": "Default",
+        "ChangePresetName": false,
+        "Preset": [
+            {
+                "_id": "00bfb85a2d3542c7498d0d31",
+                "_tpl": "SIGSPEAR本体",
+                "upd": {
+                    "Repairable": {
+                        "MaxDurability": 100,
+                        "Durability": 100
+                    },
+                    "FireMode": {
+                        "FireMode": "single"
+                    }
+                }
+            },
+            {
+                "_id": "dfdda9fa0b8315b09a188a8b",
+                "_tpl": "SIGSPEAR手枪握把",
+                "parentId": "00bfb85a2d3542c7498d0d31",
+                "slotId": "mod_pistol_grip"
+            },
+            {
+                "_id": "1fe9e846e29f05a0710756ee",
+                "_tpl": "SIGSPEAR20发弹匣",
+                "parentId": "00bfb85a2d3542c7498d0d31",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "705250051f85b8131924db2f",
+                "_tpl": "SIGSPEAR上机匣",
+                "parentId": "00bfb85a2d3542c7498d0d31",
+                "slotId": "mod_reciever"
+            },
+            {
+                "_id": "2a97c092c0efe8312a182337",
+                "_tpl": "6529348224cbe3c74a05e5c4",
+                "parentId": "00bfb85a2d3542c7498d0d31",
+                "slotId": "mod_stock_000"
+            },
+            {
+                "_id": "9707fb6fedc586f7760b2d40",
+                "_tpl": "SIGSPEAR拉机柄",
+                "parentId": "00bfb85a2d3542c7498d0d31",
+                "slotId": "mod_charge"
+            },
+            {
+                "_id": "3346f9a669fa3e5db3735729",
+                "_tpl": "SIGSPEAR基座环",
+                "parentId": "705250051f85b8131924db2f",
+                "slotId": "mod_scope"
+            },
+            {
+                "_id": "bd86a284b9e15abbe574bb94",
+                "_tpl": "652910565ae2ae97b80fdf35",
+                "parentId": "705250051f85b8131924db2f",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "4b21308b5fab49a33de9cc81",
+                "_tpl": "SIGSPEAR护木",
+                "parentId": "705250051f85b8131924db2f",
+                "slotId": "mod_handguard"
+            },
+            {
+                "_id": "47d360c4b4897cc9aca6e854",
+                "_tpl": "SIGSPEAR缓冲管",
+                "parentId": "2a97c092c0efe8312a182337",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "e0ccb56449d9f0deb4e776f6",
+                "_tpl": "SIGSPEAR光学瞄具",
+                "parentId": "3346f9a669fa3e5db3735729",
+                "slotId": "mod_scope"
+            },
+            {
+                "_id": "f43f995e17969e0e3a155586",
+                "_tpl": "6529113b5ae2ae97b80fdf39",
+                "parentId": "bd86a284b9e15abbe574bb94",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "4c79968c1527ab2298a98033",
+                "_tpl": "652910bc24cbe3c74a05e5b9",
+                "parentId": "bd86a284b9e15abbe574bb94",
+                "slotId": "mod_gas_block"
+            },
+            {
+                "_id": "efbd37483dcfc33586f6343c",
+                "_tpl": "SIGSPEAR消音器",
+                "parentId": "f43f995e17969e0e3a155586",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "4cb6a3cdfe8082ea1e17cd81",
+                "_tpl": "SIGSPEAR枪托",
+                "parentId": "47d360c4b4897cc9aca6e854",
+                "slotId": "mod_stock_000"
+            }
+        ]
+    }
+]

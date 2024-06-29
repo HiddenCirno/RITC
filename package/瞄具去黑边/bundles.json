@@ -1,0 +1,26 @@
+{
+    "manifest": [
+        {
+            "key": "assets/systems/effects/opticsight/opticsightsmasks.bundle",
+            "dependencyKeys": [
+                "shaders"
+            ]
+        },
+        {
+            "key": "string",
+            "dependencyKeys": []
+        },
+        {
+            "key": "string",
+            "dependencyKeys": []
+        },
+        {
+            "key": "string",
+            "dependencyKeys": []
+        },
+        {
+            "key": "string",
+            "dependencyKeys": []
+        }
+    ]
+}

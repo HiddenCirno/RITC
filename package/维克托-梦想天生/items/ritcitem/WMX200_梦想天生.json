@@ -1,0 +1,33 @@
+{
+    "_id": "WMX200_梦想天生",
+    "targetid": "626becf9582c3e319310b837",
+    "_props": {
+      "Name": "Insight WMX200战术手电 梦想天生",
+      "ShortName": "WMX200",
+      "Description": "Insight Technologies生产的WMX200战术手电的特别涂装版，带有常规手电筒以及一束IR激光。",
+      "DefaultPrice": 13258,
+      "RagfairType": "5b5f73ab86f774094242f195",
+      "CanFindInRaid": false,
+      "CustomLoot": false,
+      "CanSellOnRagfair": false,
+      "CustomLootTarget": "59faff1d86f7746c51718c9c",
+      "isMoney": false,
+      "isGiftBox": false,
+      "FixType": [
+        "None"
+      ],
+      "Prefab": {
+        "path": "mods/tactical/tactical_all_insight_wmx200.bundle",
+        "rcid": ""
+      },
+      "Durability": 100,
+      "Accuracy": 0,
+      "Recoil": 0,
+      "Loudness": 0,
+      "EffectiveDistance": 0,
+      "Ergonomics": 0,
+      "Velocity": 0,
+      "SightingRange": 0,
+      "DoubleActionAccuracyPenaltyMult": 1
+    }
+  }

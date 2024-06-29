@@ -1,0 +1,13 @@
+{
+    "Name": "SIG Spear 哑光黑",
+    "Desc": "提供SIG Spear的黑色版本",
+    "Version": "1.0.0",
+    "pathname": "SIG Spear 哑光黑",
+    "Config": {
+        "LootBlackList": [],
+        "GenerateList": {},
+        "CustomMoney": [],
+        "CustomRagfairBlackList": [],
+        "CustomRagfairWhiteList": []
+    }
+}

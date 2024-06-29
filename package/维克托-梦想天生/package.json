@@ -1,0 +1,13 @@
+{
+    "Name": "维克托-梦想天生",
+    "Desc": "原梦想天生痛枪Mod的移植版本",
+    "Version": "1.0.0",
+    "pathname": "维克托-梦想天生",
+    "Config": {
+        "LootBlackList": [],
+        "GenerateList": {},
+        "CustomMoney": [],
+        "CustomRagfairBlackList": [],
+        "CustomRagfairWhiteList": []
+    }
+}

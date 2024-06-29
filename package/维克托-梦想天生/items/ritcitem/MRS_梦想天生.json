@@ -1,0 +1,33 @@
+{
+    "_id": "MRS_梦想天生",
+    "targetid": "570fd721d2720bc5458b4596",
+    "_props": {
+        "Name": "Walther MRS反射式瞄具 梦想天生",
+        "ShortName": "MRS",
+        "Description": "MRS反射式瞄具特别涂装版。",
+        "RagfairType": "5b5f742686f774093e6cb4ff",
+        "DefaultPrice": 10000,
+        "CanFindInRaid": false,
+        "CustomLoot": false,
+        "CanSellOnRagfair": false,
+        "CustomLootTarget": "59faff1d86f7746c51718c9c",
+        "isMoney": false,
+        "isGiftBox": false,
+        "FixType": [
+          "None"
+        ],
+        "Prefab": {
+            "path": "mods/scope_all_walther_mrs.bundle",
+            "rcid": ""
+        },
+        "Durability": 100,
+        "Accuracy": 0,
+        "Recoil": 0,
+        "Loudness": 0,
+        "EffectiveDistance": 0,
+        "Ergonomics": 0,
+        "Velocity": 0,
+        "SightingRange": 200,
+        "DoubleActionAccuracyPenaltyMult": 1
+    }
+}

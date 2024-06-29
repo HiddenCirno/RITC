@@ -1,0 +1,146 @@
+{
+    "manifest": [
+        {
+            "key": "assets/spear_blk/weapon_sig_mcx_spear_68x51_container.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/audio/blendoptions/assets.bundle",
+                "assets/content/audio/weapons/ak74.bundle",
+                "assets/content/audio/weapons/generic",
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/animations/simple_animations.bundle",
+                "assets/content/weapons/animations/spirit_animations.bundle",
+                "assets/spear_blk/client_assets.bundle",
+                "assets/spear_blk/textures/client_assets.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "assets/systems/effects/smoke.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/spear_blk/client_assets.bundle",
+			"dependencyKeys": [
+                "assets/spear_blk/textures/client_assets.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/spear_blk/textures/client_assets.bundle",
+			"dependencyKeys": [
+            ]
+        },
+        {
+            "key": "assets/spear_blk/mods/reciever_mcx_sig_spear_upper.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/spear_blk/client_assets.bundle",
+                "assets/spear_blk/textures/client_assets.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/spear_blk/mods/handguard_mcx_sig_spear_m_lok.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/spear_blk/mods/stock_base_sig_low_profile_tube_ct.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/spear_blk/mods/charge_spear_sig_spear_std.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/spear_blk/mods/pistolgrip_ar15_sig_reduced_angle_pistol_grip_ct.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/spear_blk/mods/stock_ar15_magpul_moe_sl_k_carbine_ct.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/spear_blk/mods/silencer_clutchlok_sig_slx68_mg_qd_suppressor_68x51.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/spear_blk/mods/mount_all_sig_alpha4_ultralight_30mm.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/spear_blk/mods/scope_30mm_sig_tango6t_1_6x24.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle",
+                "cubemaps",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/spear_blk/mods/mag_ar10_lancer_l7_awm_762x51_20.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/spear_blk/mods/mag_ar10_lancer_l7_awm_762x51_25.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/spear_blk/mods/patron_68x51.bundle",
+			"dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "string",
+			"dependencyKeys": [
+            ]
+        }
+
+    ]
+
+}

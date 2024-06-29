@@ -1,0 +1,23 @@
+{
+    "_id": "SIGSPEAR消音器",
+    "targetid": "652911e650dc782999054b9d",
+    "_props": {
+      "Name": "MCX SPEAR SLX68-MG-QD 6.8x51消音器（BLK）",
+      "ShortName": "SLX68",
+      "Description": "SLX68-MG-QD消音器适用于使用6.8x51（.277 FURY）弹药的枪械。只能安装于Clutch-Lok消焰器上。",
+      "RagfairType": "5b5f731a86f774093e6cb4f9",
+      "DefaultPrice": 56500,
+      "CanFindInRaid": true,
+      "CustomLoot": false,
+      "CustomLootTarget": "5b5f75e486f77447ec5d7712",
+      "isMoney": false,
+      "isGiftBox": false,
+      "FixType": [
+          "Mods"
+      ],
+      "Prefab": {
+        "path": "assets/spear_blk/mods/silencer_clutchlok_sig_slx68_mg_qd_suppressor_68x51.bundle",
+        "rcid": ""
+      }
+    }
+  }

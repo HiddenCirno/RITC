@@ -1,0 +1,23 @@
+{
+    "_id": "SIGSPEAR缓冲管",
+    "targetid": "6529366450dc782999054ba0",
+    "_props": {
+        "Name": "MCX/MPX折叠枪托转换器缓冲管（BLK）",
+        "ShortName": "MCX/MPX",
+        "Description": "适用于SIG AR平台步枪和冲锋枪折叠式枪托转换器的缓冲管。",
+        "RagfairType": "5b5f757486f774093e6cb507",
+        "DefaultPrice": 7800,
+        "CanFindInRaid": false,
+        "CustomLoot": false,
+        "CustomLootTarget": "5b5f75e486f77447ec5d7712",
+        "isMoney": false,
+        "isGiftBox": false,
+        "FixType": [
+            "Mods"
+        ],
+        "Prefab": {
+            "path": "assets/spear_blk/mods/stock_base_sig_low_profile_tube_ct.bundle",
+            "rcid": ""
+        }
+    }
+}

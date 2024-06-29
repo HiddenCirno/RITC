@@ -1,0 +1,24 @@
+{
+    "_id": "SIGSPEAR本体",
+    "targetid": "65290f395ae2ae97b80fdf2d",
+    "_props": {
+        "Name": "SIG MCX SPEAR 6.8x51突击步枪（BLK）",
+        "ShortName": "SPEAR 6.8",
+        "Description": "MCX SPEAR是一款多口径突击步枪，由西格绍尔公司基于MCX突击步枪制造。这款武器最初适用于新的6.8x51毫米（.227 FURY）弹药。专为美军设计，用于替换M4卡宾枪。",
+        "RagfairType": "5b5f78fc86f77409407a7f90",
+        "DefaultPrice": 328917,
+        "CanFindInRaid": false,
+        "CustomLoot": false,
+        "CustomLootTarget": "59faff1d86f7746c51718c9c",
+        "isMoney": false,
+        "isGiftBox": false,
+        "FixType": [
+          "QuestWeaponGroup",
+          "Container"
+        ],
+        "Prefab": {
+            "path": "assets/spear_blk/weapon_sig_mcx_spear_68x51_container.bundle",
+            "rcid": ""
+        }
+    }
+}

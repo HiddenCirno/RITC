@@ -1,0 +1,23 @@
+{
+    "_id": "SIGSPEAR上机匣",
+    "targetid": "6529119424cbe3c74a05e5bb",
+    "_props": {
+        "Name": "MCX SPEAR 6.8x51上机匣（BLK）",
+        "ShortName": "SPEAR 6.8",
+        "Description": "MCX SPEAR标准上机匣，兼容6.8x21（.277 FURY）毫米弹药。带有一个基座，可安装附加装置。",
+        "RagfairType": "5b5f764186f77447ec5d7714",
+        "DefaultPrice": 33000,
+        "CanFindInRaid": false,
+        "CustomLoot": false,
+        "CustomLootTarget": "59faff1d86f7746c51718c9c",
+        "isMoney": false,
+        "isGiftBox": false,
+        "FixType": [
+            "Mods"
+        ],
+        "Prefab": {
+            "path": "assets/spear_blk/mods/reciever_mcx_sig_spear_upper.bundle",
+            "rcid": ""
+        }
+    }
+}

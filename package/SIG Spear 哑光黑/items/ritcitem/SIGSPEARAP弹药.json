@@ -1,0 +1,32 @@
+{
+    "_id": "f7dd8323be25ce9322c5acc7SIGSPEARAP弹药",
+    "targetid": "6529243824cbe3c74a05e5c1",
+    "_props": {
+      "Name": "6.8x51毫米 SIG AP",
+      "ShortName": "AP",
+      "Description": "军规6.8x51毫米（.277 FURY）步枪弹，配备碳化钨弹芯，具有极高的穿甲性能。",
+      "RagfairType": "5b47574386f77428ca22b33b",
+      "DefaultPrice": 1949,
+      "CanFindInRaid": true,
+      "CustomLoot": false,
+      "CustomLootTarget": "5b5f75e486f77447ec5d7712",
+      "isMoney": false,
+      "isGiftBox": false,
+      "FixType": [
+          "Mags",
+          "Chamber"
+      ],
+      "Prefab": {
+        "path": "assets/spear_blk/mods/patron_68x51.bundle",
+        "rcid": ""
+      },
+      "StackMinRandom": 1,
+      "StackMaxRandom": 15,
+      "InitialSpeed": 950,
+      "Damage": 63,
+      "ammoAccr": 5,
+      "ammoRec": 5,
+      "PenetrationPower": 54,
+      "ArmorDamage": 53
+    }
+  }

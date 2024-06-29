@@ -1,0 +1,23 @@
+{
+    "_id": "SIGSPEAR拉机柄",
+    "targetid": "6529109524cbe3c74a05e5b7",
+    "_props": {
+      "Name": "MCX SPEAR拉机柄（BLK）",
+      "ShortName": "SPEAR",
+      "Description": "MCX SPEAR突击步枪标准拉机柄。",
+      "RagfairType": "5b5f751486f77447ec5d770c",
+      "DefaultPrice": 1610,
+      "CanFindInRaid": false,
+      "CustomLoot": false,
+      "CustomLootTarget": "5b5f75e486f77447ec5d7712",
+      "isMoney": false,
+      "isGiftBox": false,
+      "FixType": [
+          "Mods"
+      ],
+      "Prefab": {
+        "path": "assets/spear_blk/mods/charge_spear_sig_spear_std.bundle",
+        "rcid": ""
+      }
+    }
+  }

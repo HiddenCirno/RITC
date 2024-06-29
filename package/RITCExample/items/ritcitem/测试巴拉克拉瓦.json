@@ -1,0 +1,28 @@
+{
+    "_id": "测试巴拉克拉瓦",
+    "targetid": "572b7f1624597762ae139822",
+    "_name": "测试巴拉克拉瓦",
+    "_props": {
+      "Name": "测试巴拉克拉瓦",
+      "ShortName": "测试巴拉克拉瓦",
+      "Description": "独立物品范例。",
+      "Weight": 0.05,
+      "BackgroundColor": "default",
+      "DefaultPrice":10000,
+      "RagfairType":"5b47574386f77428ca22b2f1",
+      "CanFindInRaid": false,
+      "CustomLoot": false,
+      "CanSellOnRagfair": true,
+      "CustomLootTarget": "59faff1d86f7746c51718c9c",
+      "isMoney": false,
+      "isGiftBox": false,
+      "FixType": [
+        "QuestEquip"
+      ],
+      "Prefab": {
+        "path": "assets/content/items/equipment/facecover_balaclava/item_equipment_facecover_balaclava_development.bundle",
+        "rcid": ""
+      },
+      "StackMaxSize": 1
+    }
+}

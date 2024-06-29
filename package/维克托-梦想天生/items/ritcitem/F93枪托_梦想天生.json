@@ -1,0 +1,32 @@
+{
+    "_id": "F93枪托_梦想天生",
+    "targetid": "5b0800175acfc400153aebd4",
+    "_props": {
+        "Name": "F93 Pro枪托 梦想天生",
+        "ShortName": "F93 Pro枪托",
+        "Description": "由Ergo制造的F93 Pro Stock可伸缩枪托。",
+        "RagfairType": "5b5f757486f774093e6cb507",
+        "DefaultPrice": 10140,
+        "CanFindInRaid": false,
+        "CustomLoot": false,
+        "CanSellOnRagfair": false,
+        "CustomLootTarget": "59faff1d86f7746c51718c9c",
+        "isMoney": false,
+        "isGiftBox": false,
+        "FixType": [
+          "None"
+        ],
+        "Prefab": {
+            "path": "mods/stock_ar15_ergo_f93_pro_stock.bundle",
+            "rcid": ""
+        },
+        "Durability": 100,
+        "Recoil": -60,
+        "Ergonomics": 10,
+        "SightingRange": 0,
+        "DoubleActionAccuracyPenaltyMult": 1,
+        "HeatFactor": 1,
+        "CoolFactor": 1,
+        "DurabilityBurnModificator": 0.5
+    }
+}

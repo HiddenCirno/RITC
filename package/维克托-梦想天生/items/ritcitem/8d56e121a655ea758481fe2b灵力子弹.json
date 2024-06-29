@@ -1,0 +1,33 @@
+{
+    "_id": "8d56e121a655ea758481fe2b灵力子弹",
+    "targetid": "5e81f423763d9f754677bf2e",
+    "_props": {
+        "Name": ".45 ACP AP 灵弹",
+        "ShortName": ".45 AP",
+        "Description": "附有驱魔灵力的特殊子弹，物理驱魔（确信）。",
+        "RagfairType": "5b47574386f77428ca22b33b",
+        "DefaultPrice": 10,
+        "StackMaxSize": 360,
+        "CanFindInRaid": false,
+        "CustomLoot": false,
+        "CanSellOnRagfair": false,
+        "CustomLootTarget": "59faff1d86f7746c51718c9c",
+        "isMoney": false,
+        "isGiftBox": false,
+        "FixType": [
+          "None"
+        ],
+        "Prefab": {
+            "path": "ammo/patron_1143x23_acp.bundle",
+            "rcid": ""
+        },
+        "StackMinRandom": 90,
+        "StackMaxRandom": 360,
+        "InitialSpeed": 340,
+        "Damage": 45,
+        "PenetrationPower": 200,
+        "Tracer": true,
+        "TracerColor": "red",
+        "ArmorDamage": 0
+    }
+}

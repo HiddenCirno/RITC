@@ -1,0 +1,118 @@
+[
+    {
+        "Name": "梦想天生_基础预设",
+        "PresetName": "Hakurei",
+        "ChangePresetName": true,
+        "Preset": [
+            {
+                "_id": "2b57f32df47f63d76bf292a4",
+                "_tpl": "Vector_梦想天生",
+                "upd": {
+                    "Repairable": {
+                        "MaxDurability": 100,
+                        "Durability": 100
+                    },
+                    "Foldable": {
+                        "Folded": false
+                    },
+                    "FireMode": {
+                        "FireMode": "single"
+                    }
+                }
+            },
+            {
+                "_id": "c3050fbb62eb9bea25651f50",
+                "_tpl": "Vector90发弹匣_梦想天生",
+                "parentId": "2b57f32df47f63d76bf292a4",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "226230cade84ff38420e5cc2",
+                "_tpl": "MRS_梦想天生",
+                "parentId": "2b57f32df47f63d76bf292a4",
+                "slotId": "mod_scope",
+                "upd": {
+                    "Sight": {
+                        "ScopesCurrentCalibPointIndexes": [
+                            0
+                        ],
+                        "ScopesSelectedModes": [
+                            0
+                        ],
+                        "SelectedScope": 0
+                    }
+                }
+            },
+            {
+                "_id": "aae49af1601cef3416eaf10b",
+                "_tpl": "Vector枪托转接器_梦想天生",
+                "parentId": "2b57f32df47f63d76bf292a4",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "2e885f5ed44e4b475039a4a2",
+                "_tpl": "6英寸枪管_梦想天生",
+                "parentId": "2b57f32df47f63d76bf292a4",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "6cba494605bfbfc823a7f5cf",
+                "_tpl": "Mk5模块导轨_梦想天生",
+                "parentId": "2b57f32df47f63d76bf292a4",
+                "slotId": "mod_mount"
+            },
+            {
+                "_id": "64a13f996db54979f5e0f392",
+                "_tpl": "8d56e121a655ea758481fe2b灵力子弹",
+                "parentId": "2b57f32df47f63d76bf292a4",
+                "slotId": "patron_in_weapon"
+            },
+            {
+                "_id": "ba66d7f694c89f3fc12ae047",
+                "_tpl": "8d56e121a655ea758481fe2b灵力子弹",
+                "parentId": "c3050fbb62eb9bea25651f50",
+                "slotId": "cartridges",
+                "location": 0,
+                "upd": {
+                    "StackObjectsCount": 40
+                }
+            },
+            {
+                "_id": "373d1deda7e45b690636bcad",
+                "_tpl": "F93枪托_梦想天生",
+                "parentId": "aae49af1601cef3416eaf10b",
+                "slotId": "mod_stock_000"
+            },
+            {
+                "_id": "72fe068a30f0b2a69990c2e7",
+                "_tpl": "DT转接器_梦想天生",
+                "parentId": "2e885f5ed44e4b475039a4a2",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "ec5aee943ecff3f17dbd08d7",
+                "_tpl": "RK2前握把_梦想天生",
+                "parentId": "6cba494605bfbfc823a7f5cf",
+                "slotId": "mod_foregrip"
+            },
+            {
+                "_id": "0578b7f740275f24be87d0e0",
+                "_tpl": "WMX200_梦想天生",
+                "parentId": "6cba494605bfbfc823a7f5cf",
+                "slotId": "mod_tactical_000",
+                "upd": {
+                    "Light": {
+                        "IsActive": false,
+                        "SelectedMode": 0
+                    }
+                }
+            },
+            {
+                "_id": "8f3957bf0ae6beca3ba6e8bf",
+                "_tpl": "Omega45K消音器_梦想天生",
+                "parentId": "72fe068a30f0b2a69990c2e7",
+                "slotId": "mod_muzzle"
+            }
+        ]
+    }
+]

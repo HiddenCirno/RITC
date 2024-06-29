@@ -1,0 +1,57 @@
+{
+    "_id": "Vector枪托转接器_梦想天生",
+    "targetid": "5fb655b748c711690e3a8d5a",
+    "_props": {
+        "Name": "KRISS Vector 非可折叠枪托转接器 梦想天生",
+        "ShortName": "Vector NFA",
+        "Description": "非可折叠转接器，用于在KRISS Vector上安装伸缩式枪托缓冲管。",
+        "RagfairType": "5b5f757486f774093e6cb507",
+        "DefaultPrice": 3900,
+        "CanFindInRaid": false,
+        "CustomLoot": false,
+        "CanSellOnRagfair": false,
+        "CustomLootTarget": "59faff1d86f7746c51718c9c",
+        "isMoney": false,
+        "isGiftBox": false,
+        "FixType": [
+          "None"
+        ],
+        "Prefab": {
+            "path": "mods/stock_vector_kriss_non_folding_adapter.bundle",
+            "rcid": ""
+        },
+        "Slots": [
+            {
+                "_name": "mod_stock_000",
+                "_id": "5fc4c881d724d907e2077df5",
+                "_parent": "Vector枪托转接器_梦想天生",
+                "_props": {
+                    "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "F93枪托_梦想天生"
+                            ]
+                        }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            }
+        ],
+        "Durability": 100,
+        "Accuracy": 0,
+        "Recoil": 0,
+        "Loudness": 0,
+        "EffectiveDistance": 0,
+        "Ergonomics": 0,
+        "Velocity": 0,
+        "SightingRange": 0,
+        "DoubleActionAccuracyPenaltyMult": 1,
+        "SizeReduceRight": 0,
+        "HeatFactor": 1,
+        "CoolFactor": 1,
+        "DurabilityBurnModificator": 1
+    }
+}

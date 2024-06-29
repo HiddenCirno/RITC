@@ -1,0 +1,57 @@
+{
+    "_id": "DT转接器_梦想天生",
+    "targetid": "5fc4b992187fea44d52edaa9",
+    "_props": {
+        "Name": "SilencerCo Omega 45k直螺纹转接器 梦想天生",
+        "ShortName": "DT Omega",
+        "Description": "膛口螺纹转接器，供Silencerco Omega 45k消音器直接安装在枪管螺纹上。",
+        "RagfairType": "5b5f72f786f77447ec5d7702",
+        "DefaultPrice": 3750,
+        "CanFindInRaid": false,
+        "CustomLoot": false,
+        "CanSellOnRagfair": false,
+        "CustomLootTarget": "59faff1d86f7746c51718c9c",
+        "isMoney": false,
+        "isGiftBox": false,
+        "FixType": [
+          "None"
+        ],
+        "Prefab": {
+            "path": "mods/muzzle_all_silencerco_omega_45k_direct_thread_adapter_1143x23.bundle",
+            "rcid": ""
+        },
+        "Slots": [
+            {
+                "_name": "mod_muzzle",
+                "_id": "5fc4b992187fea44d52edaab",
+                "_parent": "DT转接器_梦想天生",
+                "_props": {
+                    "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "Omega45K消音器_梦想天生"
+                            ]
+                        }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            }
+        ],
+        "Durability": 100,
+        "Accuracy": 0,
+        "Recoil": 0,
+        "Loudness": 0,
+        "EffectiveDistance": 0,
+        "Ergonomics": 0,
+        "Velocity": 0,
+        "SightingRange": 0,
+        "DoubleActionAccuracyPenaltyMult": 1,
+        "muzzleModType": "muzzleCombo",
+        "DurabilityBurnModificator": 1,
+        "HeatFactor": 1,
+        "CoolFactor": 1
+    }
+}

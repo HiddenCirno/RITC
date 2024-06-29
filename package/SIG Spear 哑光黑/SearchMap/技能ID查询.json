@@ -1,0 +1,326 @@
+[
+    {
+        "数字ID": 0,
+        "技能ID": "BotReload",
+        "中文名": "BotReload",
+        "英文名": "BotReload"
+    },
+    {
+        "数字ID": 1,
+        "技能ID": "BotSound",
+        "中文名": "BotSound",
+        "英文名": "BotSound"
+    },
+    {
+        "数字ID": 2,
+        "技能ID": "Endurance",
+        "中文名": "耐力",
+        "英文名": "Endurance"
+    },
+    {
+        "数字ID": 3,
+        "技能ID": "Strength",
+        "中文名": "力量",
+        "英文名": "Strength"
+    },
+    {
+        "数字ID": 4,
+        "技能ID": "Vitality",
+        "中文名": "活力",
+        "英文名": "Vitality"
+    },
+    {
+        "数字ID": 5,
+        "技能ID": "Health",
+        "中文名": "健康",
+        "英文名": "Health"
+    },
+    {
+        "数字ID": 6,
+        "技能ID": "StressResistance",
+        "中文名": "抗压",
+        "英文名": "Stress Resistance"
+    },
+    {
+        "数字ID": 7,
+        "技能ID": "Metabolism",
+        "中文名": "代谢",
+        "英文名": "Metabolism"
+    },
+    {
+        "数字ID": 8,
+        "技能ID": "Immunity",
+        "中文名": "免疫",
+        "英文名": "Immunity"
+    },
+    {
+        "数字ID": 9,
+        "技能ID": "Perception",
+        "中文名": "感知",
+        "英文名": "Perception"
+    },
+    {
+        "数字ID": 10,
+        "技能ID": "Intellect",
+        "中文名": "智力",
+        "英文名": "Intellect"
+    },
+    {
+        "数字ID": 11,
+        "技能ID": "Attention",
+        "中文名": "专注",
+        "英文名": "Attention"
+    },
+    {
+        "数字ID": 12,
+        "技能ID": "Charisma",
+        "中文名": "魅力",
+        "英文名": "Charisma"
+    },
+    {
+        "数字ID": 13,
+        "技能ID": "Memory",
+        "中文名": "记忆",
+        "英文名": "Memory"
+    },
+    {
+        "数字ID": 14,
+        "技能ID": "Pistol",
+        "中文名": "手枪",
+        "英文名": "Pistols"
+    },
+    {
+        "数字ID": 15,
+        "技能ID": "Revolver",
+        "中文名": "左轮手枪",
+        "英文名": "Revolvers"
+    },
+    {
+        "数字ID": 16,
+        "技能ID": "SMG",
+        "中文名": "冲锋枪",
+        "英文名": "SMGs"
+    },
+    {
+        "数字ID": 17,
+        "技能ID": "Assault",
+        "中文名": "突击步枪",
+        "英文名": "Assault Rifles"
+    },
+    {
+        "数字ID": 18,
+        "技能ID": "Shotgun",
+        "中文名": "霰弹枪",
+        "英文名": "Shotguns"
+    },
+    {
+        "数字ID": 19,
+        "技能ID": "Sniper",
+        "中文名": "狙击枪",
+        "英文名": "Sniper Rifles"
+    },
+    {
+        "数字ID": 20,
+        "技能ID": "LMG",
+        "中文名": "轻机枪",
+        "英文名": "LMGs"
+    },
+    {
+        "数字ID": 21,
+        "技能ID": "HMG",
+        "中文名": "重机枪",
+        "英文名": "HMGs"
+    },
+    {
+        "数字ID": 22,
+        "技能ID": "Launcher",
+        "中文名": "火箭发射器",
+        "英文名": "Rocket Launchers"
+    },
+    {
+        "数字ID": 23,
+        "技能ID": "AttachedLauncher",
+        "中文名": "下挂发射器",
+        "英文名": "Underbarrel Launchers"
+    },
+    {
+        "数字ID": 24,
+        "技能ID": "Throwing",
+        "中文名": "投掷物",
+        "英文名": "Throwables"
+    },
+    {
+        "数字ID": 25,
+        "技能ID": "Melee",
+        "中文名": "近战",
+        "英文名": "Melee"
+    },
+    {
+        "数字ID": 26,
+        "技能ID": "DMR",
+        "中文名": "精确射手步枪",
+        "英文名": "DMRs"
+    },
+    {
+        "数字ID": 27,
+        "技能ID": "RecoilControl",
+        "中文名": "后坐力控制",
+        "英文名": "Recoil Control"
+    },
+    {
+        "数字ID": 28,
+        "技能ID": "AimDrills",
+        "中文名": "瞄准训练",
+        "英文名": "Aim drills"
+    },
+    {
+        "数字ID": 29,
+        "技能ID": "TroubleShooting",
+        "中文名": "TroubleShooting",
+        "英文名": "TroubleShooting"
+    },
+    {
+        "数字ID": 30,
+        "技能ID": "Surgery",
+        "中文名": "手术",
+        "英文名": "Surgery"
+    },
+    {
+        "数字ID": 31,
+        "技能ID": "CovertMovement",
+        "中文名": "隐蔽行动",
+        "英文名": "Covert Movement"
+    },
+    {
+        "数字ID": 32,
+        "技能ID": "Search",
+        "中文名": "搜索",
+        "英文名": "Search"
+    },
+    {
+        "数字ID": 33,
+        "技能ID": "MagDrills",
+        "中文名": "弹匣训练",
+        "英文名": "Mag Drills"
+    },
+    {
+        "数字ID": 34,
+        "技能ID": "Sniping",
+        "中文名": "狙击之力",
+        "英文名": "Sniping"
+    },
+    {
+        "数字ID": 35,
+        "技能ID": "ProneMovement",
+        "中文名": "匍匐移动",
+        "英文名": "Prone Movement"
+    },
+    {
+        "数字ID": 36,
+        "技能ID": "FieldMedicine",
+        "中文名": "野战医疗",
+        "英文名": "Field Medicine"
+    },
+    {
+        "数字ID": 37,
+        "技能ID": "FirstAid",
+        "中文名": "急救技术",
+        "英文名": "First Aid"
+    },
+    {
+        "数字ID": 38,
+        "技能ID": "LightVests",
+        "中文名": "轻型护甲",
+        "英文名": "Light Vests"
+    },
+    {
+        "数字ID": 39,
+        "技能ID": "HeavyVests",
+        "中文名": "重型护甲",
+        "英文名": "Heavy Vests"
+    },
+    {
+        "数字ID": 40,
+        "技能ID": "WeaponModding",
+        "中文名": "武器改装",
+        "英文名": "Weapon Modding"
+    },
+    {
+        "数字ID": 41,
+        "技能ID": "AdvancedModding",
+        "中文名": "高级改装",
+        "英文名": "Advanced Modding"
+    },
+    {
+        "数字ID": 42,
+        "技能ID": "NightOps",
+        "中文名": "夜间行动",
+        "英文名": "Night Ops"
+    },
+    {
+        "数字ID": 43,
+        "技能ID": "SilentOps",
+        "中文名": "无声行动",
+        "英文名": "Silent Ops"
+    },
+    {
+        "数字ID": 44,
+        "技能ID": "Lockpicking",
+        "中文名": "撬锁中...",
+        "英文名": "Lockpicking"
+    },
+    {
+        "数字ID": 45,
+        "技能ID": "WeaponTreatment",
+        "中文名": "武器维护",
+        "英文名": "Weapon Maintenance"
+    },
+    {
+        "数字ID": 46,
+        "技能ID": "Freetrading",
+        "中文名": "自由贸易",
+        "英文名": "Free Trading"
+    },
+    {
+        "数字ID": 47,
+        "技能ID": "Auctions",
+        "中文名": "Auctions",
+        "英文名": "Auctions"
+    },
+    {
+        "数字ID": 48,
+        "技能ID": "Cleanoperations",
+        "中文名": "扫荡行动",
+        "英文名": "Clean Operations"
+    },
+    {
+        "数字ID": 49,
+        "技能ID": "Barter",
+        "中文名": "交换品",
+        "英文名": "Barter"
+    },
+    {
+        "数字ID": 50,
+        "技能ID": "Shadowconnections",
+        "中文名": "暗网连接",
+        "英文名": "Shadow Connections"
+    },
+    {
+        "数字ID": 51,
+        "技能ID": "Taskperformance",
+        "中文名": "任务表现",
+        "英文名": "Task Performance"
+    },
+    {
+        "数字ID": 52,
+        "技能ID": "Crafting",
+        "中文名": "工艺",
+        "英文名": "Crafting"
+    },
+    {
+        "数字ID": 53,
+        "技能ID": "HideoutManagement",
+        "中文名": "藏身处管理",
+        "英文名": "Hideout management"
+    }
+]

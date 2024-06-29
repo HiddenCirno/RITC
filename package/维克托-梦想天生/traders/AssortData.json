@@ -1,0 +1,151 @@
+[
+    {
+        "ID": "69f7d27a79b06bfd2edcb0b8",
+        "Trader": "54cb57776803fa99248b456e",
+        "Item": [
+            {
+                "_id": "69f7d27a79b06bfd2edcb0b8",
+                "_tpl": "Vector_梦想天生",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 100,
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "Repairable": {
+                        "Durability": 100,
+                        "MaxDurability": 100
+                    }
+                }
+            },
+            {
+                "_id": "6215bf9e69335b691313b7a7",
+                "_tpl": "Vector90发弹匣_梦想天生",
+                "parentId": "69f7d27a79b06bfd2edcb0b8",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "04652b31a3ead1a12f9d0048",
+                "_tpl": "MRS_梦想天生",
+                "parentId": "69f7d27a79b06bfd2edcb0b8",
+                "slotId": "mod_scope"
+            },
+            {
+                "_id": "a5e9f4075875c85530d6aeae",
+                "_tpl": "Vector枪托转接器_梦想天生",
+                "parentId": "69f7d27a79b06bfd2edcb0b8",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "53e56e885cc17d565cdf8830",
+                "_tpl": "6英寸枪管_梦想天生",
+                "parentId": "69f7d27a79b06bfd2edcb0b8",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "e45d855ba41d16833a0e2c50",
+                "_tpl": "Mk5模块导轨_梦想天生",
+                "parentId": "69f7d27a79b06bfd2edcb0b8",
+                "slotId": "mod_mount"
+            },
+            {
+                "_id": "077cc3366d89614196215684",
+                "_tpl": "8d56e121a655ea758481fe2b灵力子弹",
+                "parentId": "69f7d27a79b06bfd2edcb0b8",
+                "slotId": "patron_in_weapon"
+            },
+            {
+                "_id": "8b86bd447f72ce25c37c69c9",
+                "_tpl": "8d56e121a655ea758481fe2b灵力子弹",
+                "parentId": "6215bf9e69335b691313b7a7",
+                "slotId": "cartridges"
+            },
+            {
+                "_id": "5faef5bba472b7fcf7e10d13",
+                "_tpl": "F93枪托_梦想天生",
+                "parentId": "a5e9f4075875c85530d6aeae",
+                "slotId": "mod_stock_000"
+            },
+            {
+                "_id": "78c6537b1e0fa8372ba09a4f",
+                "_tpl": "DT转接器_梦想天生",
+                "parentId": "53e56e885cc17d565cdf8830",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "b47140deacfcc5cfe669b551",
+                "_tpl": "RK2前握把_梦想天生",
+                "parentId": "e45d855ba41d16833a0e2c50",
+                "slotId": "mod_foregrip"
+            },
+            {
+                "_id": "74a2e8e6363f70d8e3d3c601",
+                "_tpl": "WMX200_梦想天生",
+                "parentId": "e45d855ba41d16833a0e2c50",
+                "slotId": "mod_tactical_000"
+            },
+            {
+                "_id": "29b3872a384d669896fcaa95",
+                "_tpl": "Omega45K消音器_梦想天生",
+                "parentId": "78c6537b1e0fa8372ba09a4f",
+                "slotId": "mod_muzzle"
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 88888
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "梦想天生弹匣",
+        "Trader": "54cb57776803fa99248b456e",
+        "Item": [
+            {
+                "_id": "梦想天生弹匣",
+                "_tpl": "Vector90发弹匣_梦想天生",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 3999
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "梦想天生弹药",
+        "Trader": "54cb57776803fa99248b456e",
+        "Item": [
+            {
+                "_id": "梦想天生弹药",
+                "_tpl": "8d56e121a655ea758481fe2b灵力子弹",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 10
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    }
+]

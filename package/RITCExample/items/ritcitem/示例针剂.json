@@ -15,6 +15,9 @@
       "CustomLootTarget": "59faff1d86f7746c51718c9c",
       "isMoney": false,
       "StimulatorBuffs": "BuffsTestSyringe",
+      "FixType": [
+        "HandOverItemGroup"
+      ],
       "BuffValue": [
           {
               "BuffType": "HydrationRate",

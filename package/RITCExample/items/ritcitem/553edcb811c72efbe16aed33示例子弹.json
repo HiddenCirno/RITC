@@ -1,0 +1,25 @@
+{
+    "_id": "553edcb811c72efbe16aed33示例子弹",
+    "targetid": "601aa3d2b2bcb34913271e6d",
+    "_name": "示例子弹",
+    "_props": {
+      "Name": "示例子弹",
+      "ShortName": "示例子弹",
+      "Description": "独立物品范例。",
+      "Weight": 0.01,
+      "DefaultPrice":1000,
+      "RagfairType":"5b47574386f77428ca22b33b",
+      "CanFindInRaid": false,
+      "CustomLoot": false,
+      "CustomLootTarget": "59faff1d86f7746c51718c9c",
+      "CanSellOnRagfair": true,
+      "isMoney": false,
+      "isGiftBox": false,
+      "FixType": [
+        "Mags",
+        "Chamber"
+      ],
+      "PenetrationPower": 53,
+      "Damage": 39
+    }
+}

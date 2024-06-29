@@ -10,10 +10,11 @@
       "BackgroundColor": "default",
       "DefaultPrice":640000,
       "RagfairType":"5b47574386f77428ca22b2f1",
-      "CanFindInRaid": false,
+      "CanFindInRaid": true,
       "CustomLoot": false,
       "CustomLootTarget": "59faff1d86f7746c51718c9c",
       "isMoney": false,
+      "maxCountInRaid": 3,
       "StackMaxSize": 1,
       "Prefab": {
         "path": "grassblock.pack",

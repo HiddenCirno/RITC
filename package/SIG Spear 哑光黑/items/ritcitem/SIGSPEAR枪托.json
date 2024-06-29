@@ -1,0 +1,23 @@
+{
+    "_id": "SIGSPEAR枪托",
+    "targetid": "6529370c405a5f51dd023db8",
+    "_props": {
+      "Name": "AR-15 Magpul MOE SL-K枪托垫（BLK）",
+      "ShortName": "MOE SL-K",
+      "Description": "适用于AR-15/M16步枪的快速折叠枪托垫，带有军规缓冲管。黑色款。",
+      "RagfairType": "5b5f757486f774093e6cb507",
+      "DefaultPrice": 15600,
+      "CanFindInRaid": false,
+      "CustomLoot": false,
+      "CustomLootTarget": "5b5f75e486f77447ec5d7712",
+      "isMoney": false,
+      "isGiftBox": false,
+      "FixType": [
+          "Mods"
+      ],
+      "Prefab": {
+        "path": "assets/spear_blk/mods/stock_ar15_magpul_moe_sl_k_carbine_ct.bundle",
+        "rcid": ""
+      }
+    }
+  }

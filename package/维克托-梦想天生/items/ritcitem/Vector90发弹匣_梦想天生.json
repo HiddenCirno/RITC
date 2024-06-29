@@ -1,0 +1,61 @@
+{
+    "_id": "Vector90发弹匣_梦想天生",
+    "targetid": "5fb651dc85f90547f674b6f4",
+    "_props": {
+        "Name": "Magex G90 .45 ACP Vector弹匣 梦想天生",
+        "ShortName": "Magex G90",
+        "Description": "Magex G90 90发Vector弹匣。",
+        "RagfairType": "5b5f754a86f774094242f19b",
+        "DefaultPrice": 4100,
+        "CanFindInRaid": false,
+        "CustomLoot": false,
+        "CanSellOnRagfair": false,
+        "CustomLootTarget": "59faff1d86f7746c51718c9c",
+        "isMoney": false,
+        "isGiftBox": false,
+        "FixType": [
+          "None"
+        ],
+        "Prefab": {
+            "path": "mods/mag_glock_kriss_magex_g30_1143x23_30.bundle",
+            "rcid": ""
+        },
+        "Durability": 100,
+        "Accuracy": 0,
+        "Recoil": 0,
+        "Loudness": 0,
+        "EffectiveDistance": 0,
+        "Ergonomics": 0,
+        "Velocity": 0,
+        "SightingRange": 0,
+        "DoubleActionAccuracyPenaltyMult": 1,
+        "magAnimationIndex": 2,
+        "Cartridges": [
+            {
+                "_name": "cartridges",
+                "_id": "5fb651dc85f90547f674b6f6",
+                "_parent": "Vector90发弹匣_梦想天生",
+                "_max_count": 90,
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                                "8d56e121a655ea758481fe2b灵力子弹"
+                            ]
+                        }
+                    ]
+                },
+                "_proto": "5748538b2459770af276a261"
+            }
+        ],
+        "CanFast": true,
+        "CanHit": false,
+        "CanAdmin": false,
+        "LoadUnloadModifier": -9,
+        "CheckTimeModifier": -3,
+        "CheckOverride": 1,
+        "ReloadMagType": "ExternalMagazine",
+        "VisibleAmmoRangesString": "1-3",
+        "MalfunctionChance": 0
+    }
+}

@@ -14,6 +14,9 @@
       "CustomLoot": false,
       "CustomLootTarget": "59faff1d86f7746c51718c9c",
       "isMoney": false,
+      "FixType": [
+        "HandOverItem"
+      ],
       "StimulatorBuffs": "BuffsTestSyringe2",
       "BuffValue": [
           {

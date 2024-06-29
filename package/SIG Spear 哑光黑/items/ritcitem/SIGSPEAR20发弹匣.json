@@ -1,0 +1,23 @@
+{
+    "_id": "SIGSPEAR20发弹匣",
+    "targetid": "65293c38fc460e50a509cb25",
+    "_props": {
+      "Name": "AR-10 7.62x51 Lancer L7AWM 20发容量弹匣（BLK）",
+      "ShortName": "L7AWM",
+      "Description": "适用于7.62x51 NATO弹药的20发容量双层弹匣。",
+      "RagfairType": "5b5f754a86f774094242f19b",
+      "DefaultPrice": 13192,
+      "CanFindInRaid": false,
+      "CustomLoot": false,
+      "CustomLootTarget": "5b5f75e486f77447ec5d7712",
+      "isMoney": false,
+      "isGiftBox": false,
+      "FixType": [
+          "Mods"
+      ],
+      "Prefab": {
+        "path": "assets/spear_blk/mods/mag_ar10_lancer_l7_awm_762x51_20.bundle",
+        "rcid": ""
+      }
+    }
+  }

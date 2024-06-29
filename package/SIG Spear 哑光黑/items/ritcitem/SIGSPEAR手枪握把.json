@@ -1,0 +1,23 @@
+{
+    "_id": "SIGSPEAR手枪握把",
+    "targetid": "652911675ae2ae97b80fdf3c",
+    "_props": {
+      "Name": "AR-15 SIG M400 Reduced Angle手枪式握把（BLK）",
+      "ShortName": "M400",
+      "Description": "M400 聚合物手枪式握把适用于AR-15兼容系统。黑色款。",
+      "RagfairType": "5b5f761f86f774094242f1a1",
+      "DefaultPrice": 9600,
+      "CanFindInRaid": false,
+      "CustomLoot": false,
+      "CustomLootTarget": "5b5f75e486f77447ec5d7712",
+      "isMoney": false,
+      "isGiftBox": false,
+      "FixType": [
+          "Mods"
+      ],
+      "Prefab": {
+        "path": "assets/spear_blk/mods/pistolgrip_ar15_sig_reduced_angle_pistol_grip_ct.bundle",
+        "rcid": ""
+      }
+    }
+  }

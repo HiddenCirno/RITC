@@ -1,0 +1,33 @@
+{
+    "_id": "RK2前握把_梦想天生",
+    "targetid": "5c1bc5af2e221602b412949b",
+    "_props": {
+        "Name": "Zenit RK-2前握把_梦想天生",
+        "ShortName": "RK-2",
+        "Description": "RK-2前握把特别涂装版，能在开火时提供更佳的武器操控性。",
+        "RagfairType": "5b5f71de86f774093f2ecf13",
+        "DefaultPrice": 12670,
+        "CanFindInRaid": false,
+        "CustomLoot": false,
+        "CanSellOnRagfair": false,
+        "CustomLootTarget": "59faff1d86f7746c51718c9c",
+        "isMoney": false,
+        "isGiftBox": false,
+        "FixType": [
+          "None"
+        ],
+        "Prefab": {
+            "path": "mods/foregrip_all_zenit_rk_2.bundle",
+            "rcid": ""
+        },
+        "Durability": 100,
+        "Accuracy": 0,
+        "Recoil": -30,
+        "Loudness": 0,
+        "EffectiveDistance": 0,
+        "Ergonomics": 20,
+        "Velocity": 0,
+        "SightingRange": 0,
+        "DoubleActionAccuracyPenaltyMult": 1
+    }
+}

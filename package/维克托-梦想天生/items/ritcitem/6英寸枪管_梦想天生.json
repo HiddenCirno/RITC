@@ -1,0 +1,54 @@
+{
+    "_id": "6英寸枪管_梦想天生",
+    "targetid": "5fb653962b1b027b1f50bd03",
+    "_props": {
+        "Name": "6英寸Vector枪管 .45 ACP 梦想天生",
+        "ShortName": "6英寸Vector .45",
+        "Description": "Vector .45 ACP6英寸枪管特别涂装版。",
+        "RagfairType": "5b5f75c686f774094242f19f",
+        "DefaultPrice": 10700,
+        "CanFindInRaid": false,
+        "CustomLoot": false,
+        "CanSellOnRagfair": false,
+        "CustomLootTarget": "59faff1d86f7746c51718c9c",
+        "isMoney": false,
+        "isGiftBox": false,
+        "FixType": [
+          "None"
+        ],
+        "Prefab": {
+            "path": "mods/barrel_vector_170mm_1143x23.bundle",
+            "rcid": ""
+        },
+        "Slots": [
+            {
+                "_name": "mod_muzzle",
+                "_id": "5fb653962b1b027b1f50bd05",
+                "_parent": "6英寸枪管_梦想天生",
+                "_props": {
+                    "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "DT转接器_梦想天生"
+                            ]
+                        }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            }
+        ],
+        "Durability": 100,
+        "Accuracy": 0,
+        "Recoil": -20,
+        "Loudness": 0,
+        "EffectiveDistance": 0,
+        "Ergonomics": 20,
+        "Velocity": 0,
+        "SightingRange": 0,
+        "HeatFactor": 1,
+        "CoolFactor": 1.5
+    }
+}

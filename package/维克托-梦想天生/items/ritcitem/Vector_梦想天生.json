@@ -1,0 +1,191 @@
+{
+    "_id": "Vector_梦想天生",
+    "targetid": "5fb64bc92b1b027b1f50bcf2",
+    "_props": {
+        "Name": "TDI KRISS Vector Gen.2 .45 ACP 冲锋枪 梦想天生",
+        "ShortName": "Vector 梦想天生",
+        "Description": "KRISS Vector 冲锋枪特别版，使用重做后的涂装和弹药，百般武艺，此乃物理驱魔法（不是）。",
+        "RagfairType": "5b5f796a86f774093f2ed3c0",
+        "DefaultPrice": 31650,
+        "Prefab": {
+            "path": "vector_red/weapon_tdi_kriss_vector_gen_2_1143x23_container.bundle",
+            "rcid": ""
+        },
+        "CanFindInRaid": false,
+        "CustomLoot": false,
+        "CustomLootTarget": "59faff1d86f7746c51718c9c",
+        "isMoney": false,
+        "isGiftBox": false,
+        "FixType": [
+          "QuestWeaponGroup"
+        ],
+        "CanSellOnRagfair": false,
+        "DropSoundType": "SubMachineGun",
+        "Slots": [
+            {
+                "_name": "mod_magazine",
+                "_id": "5fb64bc92b1b027b1f50bcf4",
+                "_parent": "Vector_梦想天生",
+                "_props": {
+                    "filters": [
+                        {
+                            "AnimationIndex": -1,
+                            "Filter": [
+                                "Vector90发弹匣_梦想天生"
+                            ]
+                        }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c394bdc2dae468b4577"
+            },
+            {
+                "_name": "mod_scope",
+                "_id": "5fb64bc92b1b027b1f50bcf8",
+                "_parent": "Vector_梦想天生",
+                "_props": {
+                    "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "MRS_梦想天生"
+                            ]
+                        }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+                "_name": "mod_tactical_000",
+                "_id": "5fb64bc92b1b027b1f50bcf9",
+                "_parent": "Vector_梦想天生",
+                "_props": {
+                    "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "57fd23e32459772d0805bcf1",
+                                "544909bb4bdc2d6f028b4577",
+                                "5c06595c0db834001a66af6c",
+                                "5a7b483fe899ef0016170d15",
+                                "61605d88ffa6e502ac5e7eeb",
+                                "5c5952732e2216398b5abda2"
+                            ]
+                        }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+                "_name": "mod_stock",
+                "_id": "5fb64bc92b1b027b1f50bcfc",
+                "_parent": "Vector_梦想天生",
+                "_props": {
+                    "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "Vector枪托转接器_梦想天生"
+                            ]
+                        }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+                "_name": "mod_barrel",
+                "_id": "5fb658d3c09e041e073f858c",
+                "_parent": "Vector_梦想天生",
+                "_props": {
+                    "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "6英寸枪管_梦想天生"
+                            ]
+                        }
+                    ]
+                },
+                "_required": true,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+                "_name": "mod_mount",
+                "_id": "5fc3f280900b1d5091531e56",
+                "_parent": "Vector_梦想天生",
+                "_props": {
+                    "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "Mk5模块导轨_梦想天生"
+                            ]
+                        }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            }
+        ],
+        "ammoCaliber": "Caliber1143x23ACP",
+        "isFastReload": true,
+        "weapFireType": [
+          "single",
+          "burst",
+          "fullauto"
+        ],
+        "SingleFireRate": 450,
+        "bFirerate": 1100,
+        "Ergonomics": 65,
+        "Velocity": 13,
+        "bEffDist": 200,
+        "bHearDist": 80,
+        "isBoltCatch": true,
+        "shotgunDispersion": 0,
+        "Chambers": [
+            {
+                "_name": "patron_in_weapon",
+                "_id": "5fb64bc92b1b027b1f50bcfd",
+                "_parent": "Vector_梦想天生",
+                "_props": {
+                    "filters": [
+                        {
+                            "Filter": [
+                                "8d56e121a655ea758481fe2b灵力子弹"
+                            ]
+                        }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d4af244bdc2d962f8b4571"
+            }
+        ],
+        "Foldable": true,
+        "MustBoltBeOpennedForExternalReload": false,
+        "MustBoltBeOpennedForInternalReload": false,
+        "BoltAction": false,
+        "ManualBoltCatch": false,
+        "BaseMalfunctionChance": 0,
+        "AllowJam": false,
+        "AllowFeed": false,
+        "AllowMisfire": false,
+        "AllowSlide": false,
+        "DurabilityBurnRatio": 0,
+        "HeatFactorGun": 0,
+        "CoolFactorGun": 0,
+        "CoolFactorGunMods": 0,
+        "HeatFactorByShot": 0,
+        "AllowOverheat": false,
+        "NoFiremodeOnBoltcatch": false
+    }
+}

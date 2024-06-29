@@ -1,0 +1,23 @@
+{
+    "_id": "SIGSPEAR基座环",
+    "targetid": "6567e751a715f85433025998",
+    "_props": {
+      "Name": "SIG ALPHA4 30环形瞄具基座（BLK）",
+      "ShortName": "ALPHA4",
+      "Description": "SIG TANGO6T 1-6x24 30毫米瞄准镜。",
+      "RagfairType": "5b5f755f86f77447ec5d770e",
+      "DefaultPrice": 21568,
+      "CanFindInRaid": true,
+      "CustomLoot": false,
+      "CustomLootTarget": "5b5f75e486f77447ec5d7712",
+      "isMoney": false,
+      "isGiftBox": false,
+      "FixType": [
+          "Mods"
+      ],
+      "Prefab": {
+        "path": "assets/spear_blk/mods/mount_all_sig_alpha4_ultralight_30mm.bundle",
+        "rcid": ""
+      }
+    }
+  }

@@ -1,0 +1,91 @@
+{
+    "_id": "Mk5模块导轨_梦想天生",
+    "targetid": "5fbb978207e8a97d1f0902d3",
+    "_props": {
+        "Name": "KRISS Vector Mk.5 模块化导轨 梦想天生",
+        "ShortName": "Mk.5 模块化",
+        "Description": "Mk.5模块化系统特别版。",
+        "RagfairType": "5b5f755f86f77447ec5d770e",
+        "DefaultPrice": 2200,
+        "CanFindInRaid": false,
+        "CustomLoot": false,
+        "CanSellOnRagfair": false,
+        "CustomLootTarget": "59faff1d86f7746c51718c9c",
+        "isMoney": false,
+        "isGiftBox": false,
+        "FixType": [
+          "None"
+        ],
+        "Prefab": {
+            "path": "mods/mount_vector_kriss_mk5_modular_rail.bundle",
+            "rcid": ""
+        },
+        "Slots": [
+            {
+                "_name": "mod_foregrip",
+                "_id": "5fbb978207e8a97d1f0902d5",
+                "_parent": "Mk5模块导轨_梦想天生",
+                "_props": {
+                    "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "RK2前握把_梦想天生"
+                            ]
+                        }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+                "_name": "mod_tactical_000",
+                "_id": "5fce2d110dc53b538616804f",
+                "_parent": "Mk5模块导轨_梦想天生",
+                "_props": {
+                    "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "WMX200_梦想天生"
+                            ]
+                        }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+                "_name": "mod_tactical_001",
+                "_id": "5fce2d1b0dc53b5386168050",
+                "_parent": "Mk5模块导轨_梦想天生",
+                "_props": {
+                    "filters": [
+                        {
+                            "Shift": 0,
+                            "Filter": [
+                                "WMX200_梦想天生"
+                            ]
+                        }
+                    ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            }
+        ],
+        "Durability": 100,
+        "Accuracy": 0,
+        "Recoil": 0,
+        "Loudness": 0,
+        "EffectiveDistance": 0,
+        "Ergonomics": 0,
+        "Velocity": 0,
+        "SightingRange": 0,
+        "DoubleActionAccuracyPenaltyMult": 1,
+        "HeatFactor": 1,
+        "CoolFactor": 1
+    }
+}

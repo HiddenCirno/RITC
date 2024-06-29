@@ -14,6 +14,9 @@
       "CustomLoot": true,
       "CustomLootTarget": "5696686a4bdc2da3298b456a",
       "isMoney": true,
+      "FixType": [
+        "InRaidCountLimit"
+      ],
       "StackMaxSize": 100000,
       "StackMinRandom": 300,
       "StackMaxRandom": 500

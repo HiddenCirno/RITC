@@ -1,0 +1,402 @@
+[
+    {
+        "ID": "ea6b372c66f06b3ab6689a32",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "ea6b372c66f06b3ab6689a32",
+                "_tpl": "SIGSPEAR本体",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true,
+                    "BuyRestrictionMax": 3,
+                    "BuyRestrictionCurrent": 0,
+                    "Repairable": {
+                        "Durability": 100,
+                        "MaxDurability": 100
+                    }
+                }
+            },
+            {
+                "_id": "d179d07c9d2937975b226534",
+                "_tpl": "SIGSPEAR手枪握把",
+                "parentId": "ea6b372c66f06b3ab6689a32",
+                "slotId": "mod_pistol_grip"
+            },
+            {
+                "_id": "236ef7d0b3bf36b940935f61",
+                "_tpl": "SIGSPEAR20发弹匣",
+                "parentId": "ea6b372c66f06b3ab6689a32",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "04a85928d21022a36a11528b",
+                "_tpl": "SIGSPEAR上机匣",
+                "parentId": "ea6b372c66f06b3ab6689a32",
+                "slotId": "mod_reciever"
+            },
+            {
+                "_id": "623e4015d3505b42cb4f7037",
+                "_tpl": "6529348224cbe3c74a05e5c4",
+                "parentId": "ea6b372c66f06b3ab6689a32",
+                "slotId": "mod_stock_000"
+            },
+            {
+                "_id": "0ca30b762e8366ba82fda1dd",
+                "_tpl": "SIGSPEAR拉机柄",
+                "parentId": "ea6b372c66f06b3ab6689a32",
+                "slotId": "mod_charge"
+            },
+            {
+                "_id": "9c4491cd9c71fe72971a91c7",
+                "_tpl": "SIGSPEAR基座环",
+                "parentId": "04a85928d21022a36a11528b",
+                "slotId": "mod_scope"
+            },
+            {
+                "_id": "c3e0b044f7572b7afa5b6ae3",
+                "_tpl": "652910565ae2ae97b80fdf35",
+                "parentId": "04a85928d21022a36a11528b",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "0e3313bb68f2abf6eba96036",
+                "_tpl": "SIGSPEAR护木",
+                "parentId": "04a85928d21022a36a11528b",
+                "slotId": "mod_handguard"
+            },
+            {
+                "_id": "b7a70d698227d480f4e3995a",
+                "_tpl": "SIGSPEAR缓冲管",
+                "parentId": "623e4015d3505b42cb4f7037",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "95d50cae85122a1911e5a5b3",
+                "_tpl": "SIGSPEAR光学瞄具",
+                "parentId": "9c4491cd9c71fe72971a91c7",
+                "slotId": "mod_scope"
+            },
+            {
+                "_id": "c098adddc639ef3e598cc524",
+                "_tpl": "6529113b5ae2ae97b80fdf39",
+                "parentId": "c3e0b044f7572b7afa5b6ae3",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "20fc5151e8823cf4e6ee9a5a",
+                "_tpl": "652910bc24cbe3c74a05e5b9",
+                "parentId": "c3e0b044f7572b7afa5b6ae3",
+                "slotId": "mod_gas_block"
+            },
+            {
+                "_id": "be035d372eef13870c1b8dd8",
+                "_tpl": "SIGSPEAR消音器",
+                "parentId": "c098adddc639ef3e598cc524",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "93c7f4a5a88044df05f23271",
+                "_tpl": "SIGSPEAR枪托",
+                "parentId": "b7a70d698227d480f4e3995a",
+                "slotId": "mod_stock_000"
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5696686a4bdc2da3298b456a": 1847
+        },
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "63967028c4a91c5cb76abd81"
+    },
+    {
+        "ID": "SIGAP",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "SIGAP",
+                "_tpl": "f7dd8323be25ce9322c5acc7SIGSPEARAP弹药",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 80,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5696686a4bdc2da3298b456a": 19.19
+        },
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "60e71ce009d7c801eb0c0ec6"
+    },
+    {
+        "ID": "SIG20发弹匣",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "SIG20发弹匣",
+                "_tpl": "SIGSPEAR20发弹匣",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 12,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 31.44
+        },
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "SIG25发弹匣",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "SIG25发弹匣",
+                "_tpl": "SIGSPEAR25发弹匣",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 4,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 45.12
+        },
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "SIG基座环",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "SIG基座环",
+                "_tpl": "SIGSPEAR基座环",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 6,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 48.09
+        },
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "SIG护木",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "SIG护木",
+                "_tpl": "SIGSPEAR护木",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 6,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 98.79
+        },
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "SIG拉机柄",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "SIG拉机柄",
+                "_tpl": "SIGSPEAR拉机柄",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 6,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 13.35
+        },
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "SIG上机匣",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "SIG上机匣",
+                "_tpl": "SIGSPEAR上机匣",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 6,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 51.45
+        },
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "SIG缓冲管",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "SIG缓冲管",
+                "_tpl": "SIGSPEAR缓冲管",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 6,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 11.14
+        },
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "SIG枪托",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "SIG枪托",
+                "_tpl": "SIGSPEAR枪托",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 6,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 81.35
+        },
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "SIG消音器",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "SIG消音器",
+                "_tpl": "SIGSPEAR消音器",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 2,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 423.29
+        },
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    },
+    {
+        "ID": "SIG手枪握把",
+        "Trader": "5935c25fb3acc3127c3d8cd9",
+        "Item": [
+            {
+                "_id": "SIG手枪握把",
+                "_tpl": "SIGSPEAR手枪握把",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 6,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 20.31
+        },
+        "TrustLevel": 4,
+        "isWeapon": false,
+        "Locked": false,
+        "Quest": ""
+    }
+]

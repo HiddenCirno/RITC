@@ -77,6 +77,7 @@ class Mod implements IPreSptLoadMod {
             common.initItemRITC(PackageItem.mgitem, 2)
             common.initItemRITC(PackageItem.superitem, 3)
             common.initGiftData(PackageTrader.GiftData)
+            common.initPreset(PackageTrader.PresetData)
             for(var i = 0; i < info.Config.CustomMoney.length; i++){
                 inventoryConfig.customMoneyTpls.push(info.Config.CustomMoney[i])
             }

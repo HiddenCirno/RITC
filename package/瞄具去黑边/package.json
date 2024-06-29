@@ -1,0 +1,13 @@
+{
+    "Name": "瞄具去黑边",
+    "Desc": "去除所有光学瞄具的黑边",
+    "Version": "1.0.0",
+    "pathname": "瞄具去黑边",
+    "Config": {
+        "LootBlackList": [],
+        "GenerateList": {},
+        "CustomMoney": [],
+        "CustomRagfairBlackList": [],
+        "CustomRagfairWhiteList": []
+    }
+}

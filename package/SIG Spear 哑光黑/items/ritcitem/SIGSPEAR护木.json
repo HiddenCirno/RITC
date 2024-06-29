@@ -1,0 +1,23 @@
+{
+    "_id": "SIGSPEAR护木",
+    "targetid": "652910ef50dc782999054b97",
+    "_props": {
+      "Name": "MCX SPEAR 11英寸 M-LOK护木（BLK）",
+      "ShortName": "SPEAR 11寸",
+      "Description": "适用于MCX SPEAR的11英寸 M-LOK 护木，配备了一个可以安装附加设备和配件的 M-LOK 接口。",
+      "RagfairType": "5b5f75e486f77447ec5d7712",
+      "DefaultPrice": 23752,
+      "CanFindInRaid": false,
+      "CustomLoot": false,
+      "CustomLootTarget": "5b5f75e486f77447ec5d7712",
+      "isMoney": false,
+      "isGiftBox": false,
+      "FixType": [
+          "Mods"
+      ],
+      "Prefab": {
+        "path": "assets/spear_blk/mods/handguard_mcx_sig_spear_m_lok.bundle",
+        "rcid": ""
+      }
+    }
+  }
